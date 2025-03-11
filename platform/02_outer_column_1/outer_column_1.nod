@@ -1,0 +1,79 @@
+structural : labelPlatform+labelSNode+101,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  1.500000E+01,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+102,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  1.150000E+01,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+103,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  8.000000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+104,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  4.500000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+105,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  1.000000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+106,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  -2.500000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+107,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  -6.000000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+108,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  -9.500000E+00,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+109,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  -1.300000E+01,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;
+
+structural : labelPlatform+labelSNode+110,
+	dynamic,
+	reference, outerColumn1Ref,
+		0.000000E+00,  0.000000E+00,  -1.650000E+01,
+	reference, outerColumn1Ref, eye,
+	reference, outerColumn1Ref, null,
+	reference, outerColumn1Ref, null;

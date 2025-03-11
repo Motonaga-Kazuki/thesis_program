@@ -1,0 +1,52 @@
+
+#------------------------------------
+#  Label
+#  count: 6
+#------------------------------------
+set: integer nacelle	    = labelTurbine + labelSNode + 0;
+set: integer rotorShaft     = labelTurbine + labelSNode + 1;
+set: integer hubCenter    	= labelTurbine + labelSNode + 2;
+set: integer blade1Flange   = labelTurbine + labelSNode + 3;
+set: integer blade2Flange   = labelTurbine + labelSNode + 4;
+set: integer blade3Flange   = labelTurbine + labelSNode + 5;
+
+
+
+#------------------------------------
+#  Node
+#------------------------------------
+structural: nacelle, dynamic,
+	reference, towerTopFrame, null,
+	reference, towerTopFrame, eye,
+	reference, towerTopFrame, null,
+	reference, towerTopFrame, null;
+
+structural: rotorShaft, static,
+	reference, turbineFrameTilt, null,
+	reference, turbineFrameTilt, eye,
+	reference, turbineFrameTilt, null,
+	reference, turbineFrameTilt, null;
+
+structural: hubCenter, dynamic,
+	reference, rotorFrame, null,
+	reference, rotorFrame, eye,
+	reference, rotorFrame, null,
+	reference, rotorFrame, null;
+
+structural: blade1Flange, static,
+	reference, blade1FramePitch, null,
+	reference, blade1FramePitch, eye,
+	reference, blade1FramePitch, null,
+	reference, blade1FramePitch, null;
+
+structural: blade2Flange, static,
+	reference, blade2FramePitch, null,
+	reference, blade2FramePitch, eye,
+	reference, blade2FramePitch, null,
+	reference, blade2FramePitch, null;
+
+structural: blade3Flange, static,
+	reference, blade3FramePitch, null,
+	reference, blade3FramePitch, eye,
+	reference, blade3FramePitch, null,
+	reference, blade3FramePitch, null;

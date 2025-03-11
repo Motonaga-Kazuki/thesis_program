@@ -1,0 +1,14 @@
+
+
+#------------------------------------
+#  Label
+#  count: 2
+#------------------------------------
+set: integer controlValue1   = labelController + labelANode + 1;
+set: integer controlValue2   = labelController + labelANode + 2;
+
+#------------------------------------
+#  Abstract
+#------------------------------------
+abstract: controlValue1;
+abstract: controlValue2;

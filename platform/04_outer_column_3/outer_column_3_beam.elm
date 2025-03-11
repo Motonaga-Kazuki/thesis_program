@@ -1,0 +1,43 @@
+beam3 : labelPlatform+labelBeam+301,
+	 labelPlatform+labelSNode+301, null,
+     labelPlatform+labelSNode+302, null,
+	 labelPlatform+labelSNode+303, null,
+         eye,
+         linear viscoelastic generic, diag,
+             1.560000E+10, 1.560000E+10, 2.837000E+11, 5.511000E+12, 5.511000E+12, 4.241000E+12, 
+             proportional, 1.000000e-02,
+	 same,
+         same;
+
+beam3 : labelPlatform+labelBeam+302,
+	 labelPlatform+labelSNode+303, null,
+     labelPlatform+labelSNode+304, null,
+	 labelPlatform+labelSNode+305, null,
+         eye,
+         linear viscoelastic generic, diag,
+             1.560000E+10, 1.560000E+10, 2.837000E+11, 5.511000E+12, 5.511000E+12, 4.241000E+12, 
+             proportional, 1.000000e-02,
+	 same,
+         same;
+
+beam3 : labelPlatform+labelBeam+303,
+	 labelPlatform+labelSNode+305, null,
+     labelPlatform+labelSNode+306, null,
+	 labelPlatform+labelSNode+307, null,
+         eye,
+         linear viscoelastic generic, diag,
+             1.560000E+10, 1.560000E+10, 2.837000E+11, 5.511000E+12, 5.511000E+12, 4.241000E+12, 
+             proportional, 1.000000e-02,
+	 same,
+         same;
+
+beam3 : labelPlatform+labelBeam+304,
+	 labelPlatform+labelSNode+307, null,
+     labelPlatform+labelSNode+308, null,
+	 labelPlatform+labelSNode+309, null,
+         eye,
+         linear viscoelastic generic, diag,
+             1.560000E+10, 1.560000E+10, 2.837000E+11, 5.511000E+12, 5.511000E+12, 4.241000E+12, 
+             proportional, 1.000000e-02,
+	 same,
+         same;

@@ -1,0 +1,19 @@
+
+#********************************************************************
+#  Hydrodynamic Member
+#  Bottom pontoon
+#********************************************************************
+
+# member properties------------------
+set: real L_BP          =   40.5    ;       # member length    [m]
+set: real D_BP          =   10.8687 ;       # member diameter  [m]
+set: real CD_BP         =   3.0     ;       # drag coeff.
+set: real CA_BP         =   1.0     ;       # added mass coeff.
+set: real CM_BP         =   CA_BP+1.;       # inertia coeff.
+
+set: real CDV_BP        =   0.0     ;       # bottom surface drag coeff.
+set: real CAV_BP        =   0.0     ;       # bottom surface added mass coeff.
+
+# utilities--------------------------
+set: real A_BP = 0.25*pi*D_BP*D_BP;
+set: real V_BP = 0.125*2./3.*pi*D_BP*D_BP*D_BP;

@@ -1,0 +1,31 @@
+#----------------------------BottomPontoon3ToCenterColumn-----------------------------
+joint : labelPlatform+labelJoint+601,
+	total joint,
+	labelPlatform+labelSNode+10,
+		position            , reference, bottomPontoon3Ref1, null,
+		position orientation, reference, bottomPontoon3Ref1, eye ,
+		rotation orientation, reference, bottomPontoon3Ref1, eye ,
+	labelPlatform+labelSNode+601,
+		position            , reference, bottomPontoon3Ref1, null,
+		position orientation, reference, bottomPontoon3Ref1, eye ,
+		rotation orientation, reference, bottomPontoon3Ref1, eye ,
+	position constraint,
+		active, active, active, null,
+	orientation constraint,
+		active, active, active, null;
+
+#----------------------------BottomPontoon3ToOuterColumn-----------------------------
+joint : labelPlatform+labelJoint+602,
+	total joint,
+	labelPlatform+labelSNode+611,
+		position            , reference, bottomPontoon3Ref2, null,
+		position orientation, reference, bottomPontoon3Ref2, eye ,
+		rotation orientation, reference, bottomPontoon3Ref2, eye ,
+	labelPlatform+labelSNode+310,
+		position            , reference, bottomPontoon3Ref2, null,
+		position orientation, reference, bottomPontoon3Ref2, eye ,
+		rotation orientation, reference, bottomPontoon3Ref2, eye ,
+	position constraint,
+		active, active, active, null,
+	orientation constraint,
+		active, active, active, null;

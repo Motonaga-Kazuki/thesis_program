@@ -1,0 +1,5 @@
+
+
+set: real towerShellPartLength = 5.0;   # tower shell part length      [m]
+
+include: "towerBase_shell.set";

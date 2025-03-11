@@ -1,0 +1,331 @@
+
+
+#============================================================
+# Beam: 1
+#============================================================
+
+set: integer tower_beam1_label = 1;
+set: integer tower_beam1_connectivity_node1 = 1;
+set: integer tower_beam1_connectivity_node2 = 2;
+set: integer tower_beam1_connectivity_node3 = 3;
+set: integer tower_beam1_gauss1_label = 11;
+set: integer tower_beam1_gauss2_label = 12;
+
+constitutive law: labelTower+labelCLaw+tower_beam1_gauss1_label,
+	name, "tower_beam1_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   1.048901e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.048901e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.161087e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.326007e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.326007e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    5.016524e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam1_gauss2_label,
+	name, "tower_beam1_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   1.046854e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.046854e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.150766e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.288131e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.288131e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.986488e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 2
+#============================================================
+
+set: integer tower_beam2_label = 2;
+set: integer tower_beam2_connectivity_node1 = 3;
+set: integer tower_beam2_connectivity_node2 = 4;
+set: integer tower_beam2_connectivity_node3 = 5;
+set: integer tower_beam2_gauss1_label = 21;
+set: integer tower_beam2_gauss2_label = 22;
+
+constitutive law: labelTower+labelCLaw+tower_beam2_gauss1_label,
+	name, "tower_beam2_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   1.048329e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.048329e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.157831e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.295968e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.295968e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.992703e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam2_gauss2_label,
+	name, "tower_beam2_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   1.048500e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.048500e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.158692e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.299123e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.299123e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.995204e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 3
+#============================================================
+
+set: integer tower_beam3_label = 3;
+set: integer tower_beam3_connectivity_node1 = 5;
+set: integer tower_beam3_connectivity_node2 = 6;
+set: integer tower_beam3_connectivity_node3 = 7;
+set: integer tower_beam3_gauss1_label = 31;
+set: integer tower_beam3_gauss2_label = 32;
+
+constitutive law: labelTower+labelCLaw+tower_beam3_gauss1_label,
+	name, "tower_beam3_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   1.044126e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.044126e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.137490e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.263016e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.263016e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.966572e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam3_gauss2_label,
+	name, "tower_beam3_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   1.041857e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.041857e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    5.126043e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.221247e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.221247e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.933449e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 4
+#============================================================
+
+set: integer tower_beam4_label = 4;
+set: integer tower_beam4_connectivity_node1 = 7;
+set: integer tower_beam4_connectivity_node2 = 8;
+set: integer tower_beam4_connectivity_node3 = 9;
+set: integer tower_beam4_gauss1_label = 41;
+set: integer tower_beam4_gauss2_label = 42;
+
+constitutive law: labelTower+labelCLaw+tower_beam4_gauss1_label,
+	name, "tower_beam4_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   3.686121e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    3.686121e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.842478e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    2.215231e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    2.215231e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.756678e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam4_gauss2_label,
+	name, "tower_beam4_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   3.604376e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    3.604376e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.801245e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    2.069809e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    2.069809e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.641358e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 5
+#============================================================
+
+set: integer tower_beam5_label = 5;
+set: integer tower_beam5_connectivity_node1 = 9;
+set: integer tower_beam5_connectivity_node2 = 10;
+set: integer tower_beam5_connectivity_node3 = 11;
+set: integer tower_beam5_gauss1_label = 51;
+set: integer tower_beam5_gauss2_label = 52;
+
+constitutive law: labelTower+labelCLaw+tower_beam5_gauss1_label,
+	name, "tower_beam5_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   3.294163e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    3.294163e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.647009e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.824908e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.824908e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.447152e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam5_gauss2_label,
+	name, "tower_beam5_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   3.221859e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    3.221859e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.610538e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.706343e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.706343e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.353130e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 6
+#============================================================
+
+set: integer tower_beam6_label = 6;
+set: integer tower_beam6_connectivity_node1 = 11;
+set: integer tower_beam6_connectivity_node2 = 12;
+set: integer tower_beam6_connectivity_node3 = 13;
+set: integer tower_beam6_gauss1_label = 61;
+set: integer tower_beam6_gauss2_label = 62;
+
+constitutive law: labelTower+labelCLaw+tower_beam6_gauss1_label,
+	name, "tower_beam6_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   2.915380e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.915380e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.458236e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.502027e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.502027e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.191108e+12, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam6_gauss2_label,
+	name, "tower_beam6_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   2.879642e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.879642e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.440209e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.447009e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.447009e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.147478e+12, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 7
+#============================================================
+
+set: integer tower_beam7_label = 7;
+set: integer tower_beam7_connectivity_node1 = 13;
+set: integer tower_beam7_connectivity_node2 = 14;
+set: integer tower_beam7_connectivity_node3 = 15;
+set: integer tower_beam7_gauss1_label = 71;
+set: integer tower_beam7_gauss2_label = 72;
+
+constitutive law: labelTower+labelCLaw+tower_beam7_gauss1_label,
+	name, "tower_beam7_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   2.546016e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.546016e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.274400e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.254718e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.254718e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    9.949912e+11, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam7_gauss2_label,
+	name, "tower_beam7_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   2.513131e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.513131e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.257812e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.206358e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.206358e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    9.566420e+11, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 8
+#============================================================
+
+set: integer tower_beam8_label = 8;
+set: integer tower_beam8_connectivity_node1 = 15;
+set: integer tower_beam8_connectivity_node2 = 16;
+set: integer tower_beam8_connectivity_node3 = 17;
+set: integer tower_beam8_gauss1_label = 81;
+set: integer tower_beam8_gauss2_label = 82;
+
+constitutive law: labelTower+labelCLaw+tower_beam8_gauss1_label,
+	name, "tower_beam8_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   2.194828e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.194828e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.099371e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    1.025973e+12,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    1.025973e+12,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    8.135966e+11, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam8_gauss2_label,
+	name, "tower_beam8_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   2.149039e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    2.149039e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    1.076275e+11,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    9.626588e+11,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    9.626588e+11,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    7.633885e+11, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 9
+#============================================================
+
+set: integer tower_beam9_label = 9;
+set: integer tower_beam9_connectivity_node1 = 17;
+set: integer tower_beam9_connectivity_node2 = 18;
+set: integer tower_beam9_connectivity_node3 = 19;
+set: integer tower_beam9_gauss1_label = 91;
+set: integer tower_beam9_gauss2_label = 92;
+
+constitutive law: labelTower+labelCLaw+tower_beam9_gauss1_label,
+	name, "tower_beam9_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   1.872696e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.872696e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    9.382737e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    7.776602e+11,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    7.776602e+11,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.166845e+11, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam9_gauss2_label,
+	name, "tower_beam9_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   1.736481e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.736481e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    8.695650e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.190243e+11,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.190243e+11,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.908863e+11, 
+	proportional, 2.000000e-02;
+
+#============================================================
+# Beam: 10
+#============================================================
+
+set: integer tower_beam10_label = 10;
+set: integer tower_beam10_connectivity_node1 = 19;
+set: integer tower_beam10_connectivity_node2 = 20;
+set: integer tower_beam10_connectivity_node3 = 21;
+set: integer tower_beam10_gauss1_label = 101;
+set: integer tower_beam10_gauss2_label = 102;
+
+constitutive law: labelTower+labelCLaw+tower_beam10_gauss1_label,
+	name, "tower_beam10_gauss1_matrix",
+	6, linear viscoelastic generic,
+	   1.899672e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.899672e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    9.497397e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    6.029004e+11,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    6.029004e+11,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.781000e+11, 
+	proportional, 2.000000e-02;
+
+constitutive law: labelTower+labelCLaw+tower_beam10_gauss2_label,
+	name, "tower_beam10_gauss2_matrix",
+	6, linear viscoelastic generic,
+	   1.774433e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    1.774433e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    8.865678e+10,    0.000000e+00,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    4.904202e+11,    0.000000e+00,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    4.904202e+11,    0.000000e+00, 
+	   0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    0.000000e+00,    3.889032e+11, 
+	proportional, 2.000000e-02;

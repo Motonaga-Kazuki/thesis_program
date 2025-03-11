@@ -1,0 +1,33 @@
+
+#------------------------------------
+#  Label
+#  count: 75
+#------------------------------------
+set: integer platform		    = labelPlatform + labelSNode + 990;
+set: integer towerBaseFlange    = labelPlatform + labelSNode + 991;
+
+#------------------------------------
+#  Node
+#------------------------------------
+include: "platform.ref";
+include: "01_center_column/center_column.nod";			# 10
+include: "02_outer_column_1/outer_column_1.nod";		# 10
+include: "03_outer_column_2/outer_column_2.nod";		# 10
+include: "04_outer_column_3/outer_column_3.nod";		# 10
+include: "05_bottom_pontoon_1/bottom_pontoon_1.nod";	# 11
+include: "06_bottom_pontoon_2/bottom_pontoon_2.nod";	# 11
+include: "07_bottom_pontoon_3/bottom_pontoon_3.nod";	# 11
+
+
+structural: platform, static,
+	reference, platformFrame, null,
+	reference, platformFrame, eye,
+	reference, platformFrame, null,
+	reference, platformFrame, null;
+
+
+structural: towerBaseFlange, dynamic,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;

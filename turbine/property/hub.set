@@ -1,0 +1,10 @@
+
+#============================================================
+# hub mass property
+#============================================================
+
+set: real hubMass       =   69360.              ;   #hub mass                       [kg]
+
+set: real hubIneria_x   =   619970.             ;   #hub inertia about rolling      [kgm2]
+set: real hubIneria_y   =   619970.             ;   #hub inertia about pitching     [kgm2]
+set: real hubIneria_z   =   973520.+1836784.    ;   #hub inertia around rotor axis  [kgm2] 

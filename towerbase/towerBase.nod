@@ -1,0 +1,3961 @@
+#number of nodes: 440
+
+#============================================================
+# Node: 1
+#============================================================
+structural: labelShell+labelSNode+1, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 2
+#============================================================
+structural: labelShell+labelSNode+2, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 3
+#============================================================
+structural: labelShell+labelSNode+3, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 4
+#============================================================
+structural: labelShell+labelSNode+4, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 5
+#============================================================
+structural: labelShell+labelSNode+5, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 6
+#============================================================
+structural: labelShell+labelSNode+6, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 7
+#============================================================
+structural: labelShell+labelSNode+7, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 8
+#============================================================
+structural: labelShell+labelSNode+8, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 9
+#============================================================
+structural: labelShell+labelSNode+9, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 10
+#============================================================
+structural: labelShell+labelSNode+10, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 11
+#============================================================
+structural: labelShell+labelSNode+11, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 12
+#============================================================
+structural: labelShell+labelSNode+12, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 13
+#============================================================
+structural: labelShell+labelSNode+13, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 14
+#============================================================
+structural: labelShell+labelSNode+14, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 15
+#============================================================
+structural: labelShell+labelSNode+15, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 16
+#============================================================
+structural: labelShell+labelSNode+16, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 17
+#============================================================
+structural: labelShell+labelSNode+17, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 18
+#============================================================
+structural: labelShell+labelSNode+18, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 19
+#============================================================
+structural: labelShell+labelSNode+19, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 20
+#============================================================
+structural: labelShell+labelSNode+20, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 21
+#============================================================
+structural: labelShell+labelSNode+21, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 22
+#============================================================
+structural: labelShell+labelSNode+22, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 23
+#============================================================
+structural: labelShell+labelSNode+23, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 24
+#============================================================
+structural: labelShell+labelSNode+24, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 25
+#============================================================
+structural: labelShell+labelSNode+25, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 26
+#============================================================
+structural: labelShell+labelSNode+26, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 27
+#============================================================
+structural: labelShell+labelSNode+27, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 28
+#============================================================
+structural: labelShell+labelSNode+28, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 29
+#============================================================
+structural: labelShell+labelSNode+29, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 30
+#============================================================
+structural: labelShell+labelSNode+30, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 31
+#============================================================
+structural: labelShell+labelSNode+31, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 32
+#============================================================
+structural: labelShell+labelSNode+32, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 33
+#============================================================
+structural: labelShell+labelSNode+33, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 34
+#============================================================
+structural: labelShell+labelSNode+34, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 35
+#============================================================
+structural: labelShell+labelSNode+35, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 36
+#============================================================
+structural: labelShell+labelSNode+36, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 37
+#============================================================
+structural: labelShell+labelSNode+37, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 38
+#============================================================
+structural: labelShell+labelSNode+38, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 39
+#============================================================
+structural: labelShell+labelSNode+39, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 40
+#============================================================
+structural: labelShell+labelSNode+40, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 0.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 41
+#============================================================
+structural: labelShell+labelSNode+41, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 42
+#============================================================
+structural: labelShell+labelSNode+42, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 43
+#============================================================
+structural: labelShell+labelSNode+43, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 44
+#============================================================
+structural: labelShell+labelSNode+44, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 45
+#============================================================
+structural: labelShell+labelSNode+45, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 46
+#============================================================
+structural: labelShell+labelSNode+46, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 47
+#============================================================
+structural: labelShell+labelSNode+47, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 48
+#============================================================
+structural: labelShell+labelSNode+48, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 49
+#============================================================
+structural: labelShell+labelSNode+49, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 50
+#============================================================
+structural: labelShell+labelSNode+50, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 51
+#============================================================
+structural: labelShell+labelSNode+51, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 52
+#============================================================
+structural: labelShell+labelSNode+52, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 53
+#============================================================
+structural: labelShell+labelSNode+53, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 54
+#============================================================
+structural: labelShell+labelSNode+54, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 55
+#============================================================
+structural: labelShell+labelSNode+55, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 56
+#============================================================
+structural: labelShell+labelSNode+56, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 57
+#============================================================
+structural: labelShell+labelSNode+57, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 58
+#============================================================
+structural: labelShell+labelSNode+58, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 59
+#============================================================
+structural: labelShell+labelSNode+59, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 60
+#============================================================
+structural: labelShell+labelSNode+60, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 61
+#============================================================
+structural: labelShell+labelSNode+61, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 62
+#============================================================
+structural: labelShell+labelSNode+62, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 63
+#============================================================
+structural: labelShell+labelSNode+63, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 64
+#============================================================
+structural: labelShell+labelSNode+64, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 65
+#============================================================
+structural: labelShell+labelSNode+65, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 66
+#============================================================
+structural: labelShell+labelSNode+66, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 67
+#============================================================
+structural: labelShell+labelSNode+67, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 68
+#============================================================
+structural: labelShell+labelSNode+68, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 69
+#============================================================
+structural: labelShell+labelSNode+69, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 70
+#============================================================
+structural: labelShell+labelSNode+70, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 71
+#============================================================
+structural: labelShell+labelSNode+71, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 72
+#============================================================
+structural: labelShell+labelSNode+72, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 73
+#============================================================
+structural: labelShell+labelSNode+73, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 74
+#============================================================
+structural: labelShell+labelSNode+74, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 75
+#============================================================
+structural: labelShell+labelSNode+75, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 76
+#============================================================
+structural: labelShell+labelSNode+76, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 77
+#============================================================
+structural: labelShell+labelSNode+77, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 78
+#============================================================
+structural: labelShell+labelSNode+78, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 79
+#============================================================
+structural: labelShell+labelSNode+79, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 80
+#============================================================
+structural: labelShell+labelSNode+80, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 5.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 81
+#============================================================
+structural: labelShell+labelSNode+81, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 82
+#============================================================
+structural: labelShell+labelSNode+82, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 83
+#============================================================
+structural: labelShell+labelSNode+83, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 84
+#============================================================
+structural: labelShell+labelSNode+84, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 85
+#============================================================
+structural: labelShell+labelSNode+85, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 86
+#============================================================
+structural: labelShell+labelSNode+86, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 87
+#============================================================
+structural: labelShell+labelSNode+87, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 88
+#============================================================
+structural: labelShell+labelSNode+88, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 89
+#============================================================
+structural: labelShell+labelSNode+89, dynamic,
+	reference, global, -4.9585e+00, 0.0000e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 90
+#============================================================
+structural: labelShell+labelSNode+90, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 91
+#============================================================
+structural: labelShell+labelSNode+91, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 92
+#============================================================
+structural: labelShell+labelSNode+92, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 93
+#============================================================
+structural: labelShell+labelSNode+93, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 94
+#============================================================
+structural: labelShell+labelSNode+94, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 95
+#============================================================
+structural: labelShell+labelSNode+95, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 96
+#============================================================
+structural: labelShell+labelSNode+96, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 97
+#============================================================
+structural: labelShell+labelSNode+97, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 98
+#============================================================
+structural: labelShell+labelSNode+98, dynamic,
+	reference, global, -4.8975e+00, 7.7568e-01, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 99
+#============================================================
+structural: labelShell+labelSNode+99, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 100
+#============================================================
+structural: labelShell+labelSNode+100, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 101
+#============================================================
+structural: labelShell+labelSNode+101, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 102
+#============================================================
+structural: labelShell+labelSNode+102, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 103
+#============================================================
+structural: labelShell+labelSNode+103, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 104
+#============================================================
+structural: labelShell+labelSNode+104, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 105
+#============================================================
+structural: labelShell+labelSNode+105, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 106
+#============================================================
+structural: labelShell+labelSNode+106, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 107
+#============================================================
+structural: labelShell+labelSNode+107, dynamic,
+	reference, global, -4.7158e+00, 1.5323e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 108
+#============================================================
+structural: labelShell+labelSNode+108, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 109
+#============================================================
+structural: labelShell+labelSNode+109, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 110
+#============================================================
+structural: labelShell+labelSNode+110, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 111
+#============================================================
+structural: labelShell+labelSNode+111, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 112
+#============================================================
+structural: labelShell+labelSNode+112, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 113
+#============================================================
+structural: labelShell+labelSNode+113, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 114
+#============================================================
+structural: labelShell+labelSNode+114, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 115
+#============================================================
+structural: labelShell+labelSNode+115, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 116
+#============================================================
+structural: labelShell+labelSNode+116, dynamic,
+	reference, global, -4.4181e+00, 2.2511e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 117
+#============================================================
+structural: labelShell+labelSNode+117, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 118
+#============================================================
+structural: labelShell+labelSNode+118, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 119
+#============================================================
+structural: labelShell+labelSNode+119, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 120
+#============================================================
+structural: labelShell+labelSNode+120, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 121
+#============================================================
+structural: labelShell+labelSNode+121, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 122
+#============================================================
+structural: labelShell+labelSNode+122, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 123
+#============================================================
+structural: labelShell+labelSNode+123, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 124
+#============================================================
+structural: labelShell+labelSNode+124, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 125
+#============================================================
+structural: labelShell+labelSNode+125, dynamic,
+	reference, global, -4.0115e+00, 2.9145e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 126
+#============================================================
+structural: labelShell+labelSNode+126, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 127
+#============================================================
+structural: labelShell+labelSNode+127, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 128
+#============================================================
+structural: labelShell+labelSNode+128, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 129
+#============================================================
+structural: labelShell+labelSNode+129, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 130
+#============================================================
+structural: labelShell+labelSNode+130, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 131
+#============================================================
+structural: labelShell+labelSNode+131, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 132
+#============================================================
+structural: labelShell+labelSNode+132, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 133
+#============================================================
+structural: labelShell+labelSNode+133, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 134
+#============================================================
+structural: labelShell+labelSNode+134, dynamic,
+	reference, global, -3.5062e+00, 3.5062e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 135
+#============================================================
+structural: labelShell+labelSNode+135, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 136
+#============================================================
+structural: labelShell+labelSNode+136, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 137
+#============================================================
+structural: labelShell+labelSNode+137, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 138
+#============================================================
+structural: labelShell+labelSNode+138, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 139
+#============================================================
+structural: labelShell+labelSNode+139, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 140
+#============================================================
+structural: labelShell+labelSNode+140, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 141
+#============================================================
+structural: labelShell+labelSNode+141, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 142
+#============================================================
+structural: labelShell+labelSNode+142, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 143
+#============================================================
+structural: labelShell+labelSNode+143, dynamic,
+	reference, global, -2.9145e+00, 4.0115e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 144
+#============================================================
+structural: labelShell+labelSNode+144, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 145
+#============================================================
+structural: labelShell+labelSNode+145, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 146
+#============================================================
+structural: labelShell+labelSNode+146, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 147
+#============================================================
+structural: labelShell+labelSNode+147, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 148
+#============================================================
+structural: labelShell+labelSNode+148, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 149
+#============================================================
+structural: labelShell+labelSNode+149, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 150
+#============================================================
+structural: labelShell+labelSNode+150, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 151
+#============================================================
+structural: labelShell+labelSNode+151, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 152
+#============================================================
+structural: labelShell+labelSNode+152, dynamic,
+	reference, global, -2.2511e+00, 4.4181e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 153
+#============================================================
+structural: labelShell+labelSNode+153, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 154
+#============================================================
+structural: labelShell+labelSNode+154, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 155
+#============================================================
+structural: labelShell+labelSNode+155, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 156
+#============================================================
+structural: labelShell+labelSNode+156, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 157
+#============================================================
+structural: labelShell+labelSNode+157, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 158
+#============================================================
+structural: labelShell+labelSNode+158, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 159
+#============================================================
+structural: labelShell+labelSNode+159, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 160
+#============================================================
+structural: labelShell+labelSNode+160, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 161
+#============================================================
+structural: labelShell+labelSNode+161, dynamic,
+	reference, global, -1.5323e+00, 4.7158e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 162
+#============================================================
+structural: labelShell+labelSNode+162, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 163
+#============================================================
+structural: labelShell+labelSNode+163, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 164
+#============================================================
+structural: labelShell+labelSNode+164, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 165
+#============================================================
+structural: labelShell+labelSNode+165, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 166
+#============================================================
+structural: labelShell+labelSNode+166, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 167
+#============================================================
+structural: labelShell+labelSNode+167, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 168
+#============================================================
+structural: labelShell+labelSNode+168, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 169
+#============================================================
+structural: labelShell+labelSNode+169, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 170
+#============================================================
+structural: labelShell+labelSNode+170, dynamic,
+	reference, global, -7.7568e-01, 4.8975e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 171
+#============================================================
+structural: labelShell+labelSNode+171, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 172
+#============================================================
+structural: labelShell+labelSNode+172, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 173
+#============================================================
+structural: labelShell+labelSNode+173, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 174
+#============================================================
+structural: labelShell+labelSNode+174, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 175
+#============================================================
+structural: labelShell+labelSNode+175, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 176
+#============================================================
+structural: labelShell+labelSNode+176, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 177
+#============================================================
+structural: labelShell+labelSNode+177, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 178
+#============================================================
+structural: labelShell+labelSNode+178, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 179
+#============================================================
+structural: labelShell+labelSNode+179, dynamic,
+	reference, global, -3.6100e-15, 4.9585e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 180
+#============================================================
+structural: labelShell+labelSNode+180, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 181
+#============================================================
+structural: labelShell+labelSNode+181, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 182
+#============================================================
+structural: labelShell+labelSNode+182, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 183
+#============================================================
+structural: labelShell+labelSNode+183, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 184
+#============================================================
+structural: labelShell+labelSNode+184, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 185
+#============================================================
+structural: labelShell+labelSNode+185, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 186
+#============================================================
+structural: labelShell+labelSNode+186, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 187
+#============================================================
+structural: labelShell+labelSNode+187, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 188
+#============================================================
+structural: labelShell+labelSNode+188, dynamic,
+	reference, global, 7.7568e-01, 4.8975e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 189
+#============================================================
+structural: labelShell+labelSNode+189, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 190
+#============================================================
+structural: labelShell+labelSNode+190, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 191
+#============================================================
+structural: labelShell+labelSNode+191, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 192
+#============================================================
+structural: labelShell+labelSNode+192, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 193
+#============================================================
+structural: labelShell+labelSNode+193, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 194
+#============================================================
+structural: labelShell+labelSNode+194, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 195
+#============================================================
+structural: labelShell+labelSNode+195, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 196
+#============================================================
+structural: labelShell+labelSNode+196, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 197
+#============================================================
+structural: labelShell+labelSNode+197, dynamic,
+	reference, global, 1.5323e+00, 4.7158e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 198
+#============================================================
+structural: labelShell+labelSNode+198, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 199
+#============================================================
+structural: labelShell+labelSNode+199, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 200
+#============================================================
+structural: labelShell+labelSNode+200, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 201
+#============================================================
+structural: labelShell+labelSNode+201, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 202
+#============================================================
+structural: labelShell+labelSNode+202, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 203
+#============================================================
+structural: labelShell+labelSNode+203, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 204
+#============================================================
+structural: labelShell+labelSNode+204, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 205
+#============================================================
+structural: labelShell+labelSNode+205, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 206
+#============================================================
+structural: labelShell+labelSNode+206, dynamic,
+	reference, global, 2.2511e+00, 4.4181e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 207
+#============================================================
+structural: labelShell+labelSNode+207, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 208
+#============================================================
+structural: labelShell+labelSNode+208, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 209
+#============================================================
+structural: labelShell+labelSNode+209, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 210
+#============================================================
+structural: labelShell+labelSNode+210, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 211
+#============================================================
+structural: labelShell+labelSNode+211, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 212
+#============================================================
+structural: labelShell+labelSNode+212, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 213
+#============================================================
+structural: labelShell+labelSNode+213, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 214
+#============================================================
+structural: labelShell+labelSNode+214, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 215
+#============================================================
+structural: labelShell+labelSNode+215, dynamic,
+	reference, global, 2.9145e+00, 4.0115e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 216
+#============================================================
+structural: labelShell+labelSNode+216, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 217
+#============================================================
+structural: labelShell+labelSNode+217, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 218
+#============================================================
+structural: labelShell+labelSNode+218, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 219
+#============================================================
+structural: labelShell+labelSNode+219, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 220
+#============================================================
+structural: labelShell+labelSNode+220, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 221
+#============================================================
+structural: labelShell+labelSNode+221, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 222
+#============================================================
+structural: labelShell+labelSNode+222, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 223
+#============================================================
+structural: labelShell+labelSNode+223, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 224
+#============================================================
+structural: labelShell+labelSNode+224, dynamic,
+	reference, global, 3.5062e+00, 3.5062e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 225
+#============================================================
+structural: labelShell+labelSNode+225, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 226
+#============================================================
+structural: labelShell+labelSNode+226, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 227
+#============================================================
+structural: labelShell+labelSNode+227, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 228
+#============================================================
+structural: labelShell+labelSNode+228, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 229
+#============================================================
+structural: labelShell+labelSNode+229, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 230
+#============================================================
+structural: labelShell+labelSNode+230, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 231
+#============================================================
+structural: labelShell+labelSNode+231, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 232
+#============================================================
+structural: labelShell+labelSNode+232, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 233
+#============================================================
+structural: labelShell+labelSNode+233, dynamic,
+	reference, global, 4.0115e+00, 2.9145e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 234
+#============================================================
+structural: labelShell+labelSNode+234, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 235
+#============================================================
+structural: labelShell+labelSNode+235, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 236
+#============================================================
+structural: labelShell+labelSNode+236, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 237
+#============================================================
+structural: labelShell+labelSNode+237, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 238
+#============================================================
+structural: labelShell+labelSNode+238, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 239
+#============================================================
+structural: labelShell+labelSNode+239, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 240
+#============================================================
+structural: labelShell+labelSNode+240, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 241
+#============================================================
+structural: labelShell+labelSNode+241, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 242
+#============================================================
+structural: labelShell+labelSNode+242, dynamic,
+	reference, global, 4.4181e+00, 2.2511e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 243
+#============================================================
+structural: labelShell+labelSNode+243, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 244
+#============================================================
+structural: labelShell+labelSNode+244, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 245
+#============================================================
+structural: labelShell+labelSNode+245, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 246
+#============================================================
+structural: labelShell+labelSNode+246, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 247
+#============================================================
+structural: labelShell+labelSNode+247, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 248
+#============================================================
+structural: labelShell+labelSNode+248, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 249
+#============================================================
+structural: labelShell+labelSNode+249, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 250
+#============================================================
+structural: labelShell+labelSNode+250, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 251
+#============================================================
+structural: labelShell+labelSNode+251, dynamic,
+	reference, global, 4.7158e+00, 1.5323e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 252
+#============================================================
+structural: labelShell+labelSNode+252, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 253
+#============================================================
+structural: labelShell+labelSNode+253, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 254
+#============================================================
+structural: labelShell+labelSNode+254, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 255
+#============================================================
+structural: labelShell+labelSNode+255, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 256
+#============================================================
+structural: labelShell+labelSNode+256, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 257
+#============================================================
+structural: labelShell+labelSNode+257, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 258
+#============================================================
+structural: labelShell+labelSNode+258, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 259
+#============================================================
+structural: labelShell+labelSNode+259, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 260
+#============================================================
+structural: labelShell+labelSNode+260, dynamic,
+	reference, global, 4.8975e+00, 7.7568e-01, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 261
+#============================================================
+structural: labelShell+labelSNode+261, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 262
+#============================================================
+structural: labelShell+labelSNode+262, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 263
+#============================================================
+structural: labelShell+labelSNode+263, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 264
+#============================================================
+structural: labelShell+labelSNode+264, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 265
+#============================================================
+structural: labelShell+labelSNode+265, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 266
+#============================================================
+structural: labelShell+labelSNode+266, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 267
+#============================================================
+structural: labelShell+labelSNode+267, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 268
+#============================================================
+structural: labelShell+labelSNode+268, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 269
+#============================================================
+structural: labelShell+labelSNode+269, dynamic,
+	reference, global, 4.9585e+00, 7.2130e-15, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 270
+#============================================================
+structural: labelShell+labelSNode+270, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 271
+#============================================================
+structural: labelShell+labelSNode+271, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 272
+#============================================================
+structural: labelShell+labelSNode+272, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 273
+#============================================================
+structural: labelShell+labelSNode+273, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 274
+#============================================================
+structural: labelShell+labelSNode+274, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 275
+#============================================================
+structural: labelShell+labelSNode+275, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 276
+#============================================================
+structural: labelShell+labelSNode+276, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 277
+#============================================================
+structural: labelShell+labelSNode+277, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 278
+#============================================================
+structural: labelShell+labelSNode+278, dynamic,
+	reference, global, 4.8975e+00, -7.7568e-01, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 279
+#============================================================
+structural: labelShell+labelSNode+279, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 280
+#============================================================
+structural: labelShell+labelSNode+280, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 281
+#============================================================
+structural: labelShell+labelSNode+281, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 282
+#============================================================
+structural: labelShell+labelSNode+282, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 283
+#============================================================
+structural: labelShell+labelSNode+283, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 284
+#============================================================
+structural: labelShell+labelSNode+284, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 285
+#============================================================
+structural: labelShell+labelSNode+285, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 286
+#============================================================
+structural: labelShell+labelSNode+286, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 287
+#============================================================
+structural: labelShell+labelSNode+287, dynamic,
+	reference, global, 4.7158e+00, -1.5323e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 288
+#============================================================
+structural: labelShell+labelSNode+288, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 289
+#============================================================
+structural: labelShell+labelSNode+289, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 290
+#============================================================
+structural: labelShell+labelSNode+290, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 291
+#============================================================
+structural: labelShell+labelSNode+291, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 292
+#============================================================
+structural: labelShell+labelSNode+292, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 293
+#============================================================
+structural: labelShell+labelSNode+293, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 294
+#============================================================
+structural: labelShell+labelSNode+294, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 295
+#============================================================
+structural: labelShell+labelSNode+295, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 296
+#============================================================
+structural: labelShell+labelSNode+296, dynamic,
+	reference, global, 4.4181e+00, -2.2511e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 297
+#============================================================
+structural: labelShell+labelSNode+297, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 298
+#============================================================
+structural: labelShell+labelSNode+298, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 299
+#============================================================
+structural: labelShell+labelSNode+299, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 300
+#============================================================
+structural: labelShell+labelSNode+300, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 301
+#============================================================
+structural: labelShell+labelSNode+301, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 302
+#============================================================
+structural: labelShell+labelSNode+302, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 303
+#============================================================
+structural: labelShell+labelSNode+303, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 304
+#============================================================
+structural: labelShell+labelSNode+304, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 305
+#============================================================
+structural: labelShell+labelSNode+305, dynamic,
+	reference, global, 4.0115e+00, -2.9145e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 306
+#============================================================
+structural: labelShell+labelSNode+306, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 307
+#============================================================
+structural: labelShell+labelSNode+307, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 308
+#============================================================
+structural: labelShell+labelSNode+308, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 309
+#============================================================
+structural: labelShell+labelSNode+309, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 310
+#============================================================
+structural: labelShell+labelSNode+310, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 311
+#============================================================
+structural: labelShell+labelSNode+311, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 312
+#============================================================
+structural: labelShell+labelSNode+312, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 313
+#============================================================
+structural: labelShell+labelSNode+313, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 314
+#============================================================
+structural: labelShell+labelSNode+314, dynamic,
+	reference, global, 3.5062e+00, -3.5062e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 315
+#============================================================
+structural: labelShell+labelSNode+315, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 316
+#============================================================
+structural: labelShell+labelSNode+316, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 317
+#============================================================
+structural: labelShell+labelSNode+317, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 318
+#============================================================
+structural: labelShell+labelSNode+318, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 319
+#============================================================
+structural: labelShell+labelSNode+319, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 320
+#============================================================
+structural: labelShell+labelSNode+320, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 321
+#============================================================
+structural: labelShell+labelSNode+321, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 322
+#============================================================
+structural: labelShell+labelSNode+322, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 323
+#============================================================
+structural: labelShell+labelSNode+323, dynamic,
+	reference, global, 2.9145e+00, -4.0115e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 324
+#============================================================
+structural: labelShell+labelSNode+324, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 325
+#============================================================
+structural: labelShell+labelSNode+325, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 326
+#============================================================
+structural: labelShell+labelSNode+326, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 327
+#============================================================
+structural: labelShell+labelSNode+327, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 328
+#============================================================
+structural: labelShell+labelSNode+328, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 329
+#============================================================
+structural: labelShell+labelSNode+329, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 330
+#============================================================
+structural: labelShell+labelSNode+330, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 331
+#============================================================
+structural: labelShell+labelSNode+331, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 332
+#============================================================
+structural: labelShell+labelSNode+332, dynamic,
+	reference, global, 2.2511e+00, -4.4181e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 333
+#============================================================
+structural: labelShell+labelSNode+333, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 334
+#============================================================
+structural: labelShell+labelSNode+334, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 335
+#============================================================
+structural: labelShell+labelSNode+335, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 336
+#============================================================
+structural: labelShell+labelSNode+336, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 337
+#============================================================
+structural: labelShell+labelSNode+337, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 338
+#============================================================
+structural: labelShell+labelSNode+338, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 339
+#============================================================
+structural: labelShell+labelSNode+339, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 340
+#============================================================
+structural: labelShell+labelSNode+340, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 341
+#============================================================
+structural: labelShell+labelSNode+341, dynamic,
+	reference, global, 1.5323e+00, -4.7158e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 342
+#============================================================
+structural: labelShell+labelSNode+342, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 343
+#============================================================
+structural: labelShell+labelSNode+343, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 344
+#============================================================
+structural: labelShell+labelSNode+344, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 345
+#============================================================
+structural: labelShell+labelSNode+345, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 346
+#============================================================
+structural: labelShell+labelSNode+346, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 347
+#============================================================
+structural: labelShell+labelSNode+347, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 348
+#============================================================
+structural: labelShell+labelSNode+348, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 349
+#============================================================
+structural: labelShell+labelSNode+349, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 350
+#============================================================
+structural: labelShell+labelSNode+350, dynamic,
+	reference, global, 7.7568e-01, -4.8975e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 351
+#============================================================
+structural: labelShell+labelSNode+351, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 352
+#============================================================
+structural: labelShell+labelSNode+352, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 353
+#============================================================
+structural: labelShell+labelSNode+353, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 354
+#============================================================
+structural: labelShell+labelSNode+354, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 355
+#============================================================
+structural: labelShell+labelSNode+355, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 356
+#============================================================
+structural: labelShell+labelSNode+356, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 357
+#============================================================
+structural: labelShell+labelSNode+357, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 358
+#============================================================
+structural: labelShell+labelSNode+358, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 359
+#============================================================
+structural: labelShell+labelSNode+359, dynamic,
+	reference, global, 9.7190e-15, -4.9585e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 360
+#============================================================
+structural: labelShell+labelSNode+360, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 361
+#============================================================
+structural: labelShell+labelSNode+361, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 362
+#============================================================
+structural: labelShell+labelSNode+362, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 363
+#============================================================
+structural: labelShell+labelSNode+363, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 364
+#============================================================
+structural: labelShell+labelSNode+364, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 365
+#============================================================
+structural: labelShell+labelSNode+365, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 366
+#============================================================
+structural: labelShell+labelSNode+366, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 367
+#============================================================
+structural: labelShell+labelSNode+367, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 368
+#============================================================
+structural: labelShell+labelSNode+368, dynamic,
+	reference, global, -7.7568e-01, -4.8975e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 369
+#============================================================
+structural: labelShell+labelSNode+369, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 370
+#============================================================
+structural: labelShell+labelSNode+370, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 371
+#============================================================
+structural: labelShell+labelSNode+371, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 372
+#============================================================
+structural: labelShell+labelSNode+372, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 373
+#============================================================
+structural: labelShell+labelSNode+373, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 374
+#============================================================
+structural: labelShell+labelSNode+374, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 375
+#============================================================
+structural: labelShell+labelSNode+375, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 376
+#============================================================
+structural: labelShell+labelSNode+376, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 377
+#============================================================
+structural: labelShell+labelSNode+377, dynamic,
+	reference, global, -1.5323e+00, -4.7158e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 378
+#============================================================
+structural: labelShell+labelSNode+378, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 379
+#============================================================
+structural: labelShell+labelSNode+379, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 380
+#============================================================
+structural: labelShell+labelSNode+380, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 381
+#============================================================
+structural: labelShell+labelSNode+381, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 382
+#============================================================
+structural: labelShell+labelSNode+382, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 383
+#============================================================
+structural: labelShell+labelSNode+383, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 384
+#============================================================
+structural: labelShell+labelSNode+384, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 385
+#============================================================
+structural: labelShell+labelSNode+385, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 386
+#============================================================
+structural: labelShell+labelSNode+386, dynamic,
+	reference, global, -2.2511e+00, -4.4181e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 387
+#============================================================
+structural: labelShell+labelSNode+387, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 388
+#============================================================
+structural: labelShell+labelSNode+388, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 389
+#============================================================
+structural: labelShell+labelSNode+389, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 390
+#============================================================
+structural: labelShell+labelSNode+390, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 391
+#============================================================
+structural: labelShell+labelSNode+391, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 392
+#============================================================
+structural: labelShell+labelSNode+392, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 393
+#============================================================
+structural: labelShell+labelSNode+393, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 394
+#============================================================
+structural: labelShell+labelSNode+394, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 395
+#============================================================
+structural: labelShell+labelSNode+395, dynamic,
+	reference, global, -2.9145e+00, -4.0115e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 396
+#============================================================
+structural: labelShell+labelSNode+396, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 397
+#============================================================
+structural: labelShell+labelSNode+397, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 398
+#============================================================
+structural: labelShell+labelSNode+398, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 399
+#============================================================
+structural: labelShell+labelSNode+399, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 400
+#============================================================
+structural: labelShell+labelSNode+400, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 401
+#============================================================
+structural: labelShell+labelSNode+401, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 402
+#============================================================
+structural: labelShell+labelSNode+402, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 403
+#============================================================
+structural: labelShell+labelSNode+403, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 404
+#============================================================
+structural: labelShell+labelSNode+404, dynamic,
+	reference, global, -3.5062e+00, -3.5062e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 405
+#============================================================
+structural: labelShell+labelSNode+405, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 406
+#============================================================
+structural: labelShell+labelSNode+406, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 407
+#============================================================
+structural: labelShell+labelSNode+407, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 408
+#============================================================
+structural: labelShell+labelSNode+408, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 409
+#============================================================
+structural: labelShell+labelSNode+409, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 410
+#============================================================
+structural: labelShell+labelSNode+410, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 411
+#============================================================
+structural: labelShell+labelSNode+411, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 412
+#============================================================
+structural: labelShell+labelSNode+412, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 413
+#============================================================
+structural: labelShell+labelSNode+413, dynamic,
+	reference, global, -4.0115e+00, -2.9145e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 414
+#============================================================
+structural: labelShell+labelSNode+414, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 415
+#============================================================
+structural: labelShell+labelSNode+415, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 416
+#============================================================
+structural: labelShell+labelSNode+416, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 417
+#============================================================
+structural: labelShell+labelSNode+417, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 418
+#============================================================
+structural: labelShell+labelSNode+418, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 419
+#============================================================
+structural: labelShell+labelSNode+419, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 420
+#============================================================
+structural: labelShell+labelSNode+420, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 421
+#============================================================
+structural: labelShell+labelSNode+421, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 422
+#============================================================
+structural: labelShell+labelSNode+422, dynamic,
+	reference, global, -4.4181e+00, -2.2511e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 423
+#============================================================
+structural: labelShell+labelSNode+423, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 424
+#============================================================
+structural: labelShell+labelSNode+424, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 425
+#============================================================
+structural: labelShell+labelSNode+425, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 426
+#============================================================
+structural: labelShell+labelSNode+426, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 427
+#============================================================
+structural: labelShell+labelSNode+427, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 428
+#============================================================
+structural: labelShell+labelSNode+428, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 429
+#============================================================
+structural: labelShell+labelSNode+429, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 430
+#============================================================
+structural: labelShell+labelSNode+430, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 431
+#============================================================
+structural: labelShell+labelSNode+431, dynamic,
+	reference, global, -4.7158e+00, -1.5323e+00, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 432
+#============================================================
+structural: labelShell+labelSNode+432, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 4.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 433
+#============================================================
+structural: labelShell+labelSNode+433, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 4.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 434
+#============================================================
+structural: labelShell+labelSNode+434, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 3.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 435
+#============================================================
+structural: labelShell+labelSNode+435, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 3.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 436
+#============================================================
+structural: labelShell+labelSNode+436, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 2.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 437
+#============================================================
+structural: labelShell+labelSNode+437, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 2.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 438
+#============================================================
+structural: labelShell+labelSNode+438, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 1.5000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 439
+#============================================================
+structural: labelShell+labelSNode+439, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 1.0000e+00,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;
+
+#============================================================
+# Node: 440
+#============================================================
+structural: labelShell+labelSNode+440, dynamic,
+	reference, global, -4.8975e+00, -7.7568e-01, 5.0000e-01,
+	reference, global, eye,
+	reference, global, null,
+	reference, global, null;

@@ -1,0 +1,6 @@
+
+#============================================================
+# tower interface attachment
+#============================================================
+
+set: real towerBaseConnectorMass    =   1.e5   ;   #connector [kg]

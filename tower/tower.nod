@@ -1,0 +1,324 @@
+
+#------------------------------------
+#  Label
+#  count: 23
+#------------------------------------
+
+
+#------------------------------------
+#Node: 1
+#------------------------------------
+structural: labelTower+labelSNode+tower_node1_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node1_x,
+		tower_node1_y,
+		tower_node1_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 2
+#------------------------------------
+structural: labelTower+labelSNode+tower_node2_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node2_x,
+		tower_node2_y,
+		tower_node2_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 3
+#------------------------------------
+structural: labelTower+labelSNode+tower_node3_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node3_x,
+		tower_node3_y,
+		tower_node3_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 4
+#------------------------------------
+structural: labelTower+labelSNode+tower_node4_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node4_x,
+		tower_node4_y,
+		tower_node4_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 5
+#------------------------------------
+structural: labelTower+labelSNode+tower_node5_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node5_x,
+		tower_node5_y,
+		tower_node5_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 6
+#------------------------------------
+structural: labelTower+labelSNode+tower_node6_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node6_x,
+		tower_node6_y,
+		tower_node6_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 7
+#------------------------------------
+structural: labelTower+labelSNode+tower_node7_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node7_x,
+		tower_node7_y,
+		tower_node7_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 8
+#------------------------------------
+structural: labelTower+labelSNode+tower_node8_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node8_x,
+		tower_node8_y,
+		tower_node8_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 9
+#------------------------------------
+structural: labelTower+labelSNode+tower_node9_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node9_x,
+		tower_node9_y,
+		tower_node9_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 10
+#------------------------------------
+structural: labelTower+labelSNode+tower_node10_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node10_x,
+		tower_node10_y,
+		tower_node10_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 11
+#------------------------------------
+structural: labelTower+labelSNode+tower_node11_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node11_x,
+		tower_node11_y,
+		tower_node11_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 12
+#------------------------------------
+structural: labelTower+labelSNode+tower_node12_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node12_x,
+		tower_node12_y,
+		tower_node12_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 13
+#------------------------------------
+structural: labelTower+labelSNode+tower_node13_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node13_x,
+		tower_node13_y,
+		tower_node13_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 14
+#------------------------------------
+structural: labelTower+labelSNode+tower_node14_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node14_x,
+		tower_node14_y,
+		tower_node14_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 15
+#------------------------------------
+structural: labelTower+labelSNode+tower_node15_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node15_x,
+		tower_node15_y,
+		tower_node15_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 16
+#------------------------------------
+structural: labelTower+labelSNode+tower_node16_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node16_x,
+		tower_node16_y,
+		tower_node16_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 17
+#------------------------------------
+structural: labelTower+labelSNode+tower_node17_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node17_x,
+		tower_node17_y,
+		tower_node17_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 18
+#------------------------------------
+structural: labelTower+labelSNode+tower_node18_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node18_x,
+		tower_node18_y,
+		tower_node18_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 19
+#------------------------------------
+structural: labelTower+labelSNode+tower_node19_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node19_x,
+		tower_node19_y,
+		tower_node19_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 20
+#------------------------------------
+structural: labelTower+labelSNode+tower_node20_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node20_x,
+		tower_node20_y,
+		tower_node20_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 21
+#------------------------------------
+structural: labelTower+labelSNode+tower_node21_label, dynamic,
+	reference, towerBaseFrame,
+		tower_node21_x,
+		tower_node21_y,
+		tower_node21_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+
+#------------------------------------
+#Node: 22 tower top
+#------------------------------------
+set: integer towerTopFlange = labelTower+labelSNode+tower_node21_label+1;
+structural: towerTopFlange, dynamic,
+	reference, towerBaseFrame,
+		tower_node21_x,
+		tower_node21_y,
+		tower_node21_z,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+#------------------------------------
+#Node: 
+#------------------------------------
+set: integer towerBeamBottom = labelTower+labelSNode+999;
+structural: towerBeamBottom, static,
+	reference, towerSBInterface, null,
+	reference, towerSBInterface, eye,
+	reference, towerSBInterface, null,
+	reference, towerSBInterface, null;

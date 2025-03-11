@@ -1,0 +1,17 @@
+
+#------------------------------------
+#  Label
+#  count: 1
+#------------------------------------
+set: integer mooring1Fairlead	    = labelMooring1 + labelSNode + 0;
+
+
+#------------------------------------
+#  Node
+#------------------------------------
+structural: mooring1Fairlead, static,
+	reference, mooring1Frame, null,
+	reference, mooring1Frame, eye,
+	reference, mooring1Frame, null,
+	reference, mooring1Frame, null;
+

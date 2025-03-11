@@ -1,0 +1,357 @@
+
+
+#============================================================
+# Body: 1
+#============================================================
+
+set: integer tower_body1_label = 1;
+set: real tower_body1_xcm = 0.000000e+00;
+set: real tower_body1_ycm = 0.000000e+00;
+set: real tower_body1_zcm = 1.000093e+00;
+set: real tower_body1_mass = 4.086921e+04;
+set: real tower_body1_I11 = 5.144007e+05;
+set: real tower_body1_I12 = 0.000000e+00;
+set: real tower_body1_I13 = 0.000000e+00;
+set: real tower_body1_I22 = 5.144007e+05;
+set: real tower_body1_I23 = 0.000000e+00;
+set: real tower_body1_I33 = 1.001555e+06;
+
+
+#============================================================
+# Body: 2
+#============================================================
+
+set: integer tower_body2_label = 2;
+set: real tower_body2_xcm = 0.000000e+00;
+set: real tower_body2_ycm = 0.000000e+00;
+set: real tower_body2_zcm = -1.871289e-04;
+set: real tower_body2_mass = 8.166983e+04;
+set: real tower_body2_I11 = 1.107930e+06;
+set: real tower_body2_I12 = 0.000000e+00;
+set: real tower_body2_I13 = 0.000000e+00;
+set: real tower_body2_I22 = 1.107930e+06;
+set: real tower_body2_I23 = 0.000000e+00;
+set: real tower_body2_I33 = 1.998073e+06;
+
+
+#============================================================
+# Body: 3
+#============================================================
+
+set: integer tower_body3_label = 3;
+set: real tower_body3_xcm = 0.000000e+00;
+set: real tower_body3_ycm = 0.000000e+00;
+set: real tower_body3_zcm = 6.257523e-01;
+set: real tower_body3_mass = 1.071799e+05;
+set: real tower_body3_I11 = 1.554609e+06;
+set: real tower_body3_I12 = 0.000000e+00;
+set: real tower_body3_I13 = 0.000000e+00;
+set: real tower_body3_I22 = 1.554609e+06;
+set: real tower_body3_I23 = 0.000000e+00;
+set: real tower_body3_I33 = 2.616956e+06;
+
+
+#============================================================
+# Body: 4
+#============================================================
+
+set: integer tower_body4_label = 4;
+set: real tower_body4_xcm = 0.000000e+00;
+set: real tower_body4_ycm = 0.000000e+00;
+set: real tower_body4_zcm = 4.060835e-05;
+set: real tower_body4_mass = 1.327736e+05;
+set: real tower_body4_I11 = 2.088461e+06;
+set: real tower_body4_I12 = 0.000000e+00;
+set: real tower_body4_I13 = 0.000000e+00;
+set: real tower_body4_I22 = 2.088461e+06;
+set: real tower_body4_I23 = 0.000000e+00;
+set: real tower_body4_I33 = 3.241975e+06;
+
+
+#============================================================
+# Body: 5
+#============================================================
+
+set: integer tower_body5_label = 5;
+set: real tower_body5_xcm = 0.000000e+00;
+set: real tower_body5_ycm = 0.000000e+00;
+set: real tower_body5_zcm = -2.916040e-03;
+set: real tower_body5_mass = 1.325406e+05;
+set: real tower_body5_I11 = 2.084516e+06;
+set: real tower_body5_I12 = 0.000000e+00;
+set: real tower_body5_I13 = 0.000000e+00;
+set: real tower_body5_I22 = 2.084516e+06;
+set: real tower_body5_I23 = 0.000000e+00;
+set: real tower_body5_I33 = 3.235601e+06;
+
+
+#============================================================
+# Body: 6
+#============================================================
+
+set: integer tower_body6_label = 6;
+set: real tower_body6_xcm = 0.000000e+00;
+set: real tower_body6_ycm = 0.000000e+00;
+set: real tower_body6_zcm = -5.496241e-04;
+set: real tower_body6_mass = 1.320916e+05;
+set: real tower_body6_I11 = 2.071792e+06;
+set: real tower_body6_I12 = 0.000000e+00;
+set: real tower_body6_I13 = 0.000000e+00;
+set: real tower_body6_I22 = 2.071792e+06;
+set: real tower_body6_I23 = 0.000000e+00;
+set: real tower_body6_I33 = 3.213440e+06;
+
+
+#============================================================
+# Body: 7
+#============================================================
+
+set: integer tower_body7_label = 7;
+set: real tower_body7_xcm = 0.000000e+00;
+set: real tower_body7_ycm = 0.000000e+00;
+set: real tower_body7_zcm = -7.619453e-01;
+set: real tower_body7_mass = 8.975450e+04;
+set: real tower_body7_I11 = 1.352356e+06;
+set: real tower_body7_I12 = 0.000000e+00;
+set: real tower_body7_I13 = 0.000000e+00;
+set: real tower_body7_I22 = 1.352356e+06;
+set: real tower_body7_I23 = 0.000000e+00;
+set: real tower_body7_I33 = 2.176600e+06;
+
+
+#============================================================
+# Body: 8
+#============================================================
+
+set: integer tower_body8_label = 8;
+set: real tower_body8_xcm = 0.000000e+00;
+set: real tower_body8_ycm = 0.000000e+00;
+set: real tower_body8_zcm = -5.572115e-03;
+set: real tower_body8_mass = 4.689470e+04;
+set: real tower_body8_I11 = 7.164379e+05;
+set: real tower_body8_I12 = 0.000000e+00;
+set: real tower_body8_I13 = 0.000000e+00;
+set: real tower_body8_I22 = 7.164379e+05;
+set: real tower_body8_I23 = 0.000000e+00;
+set: real tower_body8_I33 = 1.102662e+06;
+
+
+#============================================================
+# Body: 9
+#============================================================
+
+set: integer tower_body9_label = 9;
+set: real tower_body9_xcm = 0.000000e+00;
+set: real tower_body9_ycm = 0.000000e+00;
+set: real tower_body9_zcm = -6.327251e-02;
+set: real tower_body9_mass = 4.436787e+04;
+set: real tower_body9_I11 = 6.568089e+05;
+set: real tower_body9_I12 = 0.000000e+00;
+set: real tower_body9_I13 = 0.000000e+00;
+set: real tower_body9_I22 = 6.568089e+05;
+set: real tower_body9_I23 = 0.000000e+00;
+set: real tower_body9_I33 = 1.001598e+06;
+
+
+#============================================================
+# Body: 10
+#============================================================
+
+set: integer tower_body10_label = 10;
+set: real tower_body10_xcm = 0.000000e+00;
+set: real tower_body10_ycm = 0.000000e+00;
+set: real tower_body10_zcm = -5.512780e-03;
+set: real tower_body10_mass = 4.192461e+04;
+set: real tower_body10_I11 = 6.019564e+05;
+set: real tower_body10_I12 = 0.000000e+00;
+set: real tower_body10_I13 = 0.000000e+00;
+set: real tower_body10_I22 = 6.019564e+05;
+set: real tower_body10_I23 = 0.000000e+00;
+set: real tower_body10_I33 = 9.086962e+05;
+
+
+#============================================================
+# Body: 11
+#============================================================
+
+set: integer tower_body11_label = 11;
+set: real tower_body11_xcm = 0.000000e+00;
+set: real tower_body11_ycm = 0.000000e+00;
+set: real tower_body11_zcm = -7.329864e-02;
+set: real tower_body11_mass = 3.945198e+04;
+set: real tower_body11_I11 = 5.501271e+05;
+set: real tower_body11_I12 = 0.000000e+00;
+set: real tower_body11_I13 = 0.000000e+00;
+set: real tower_body11_I22 = 5.501271e+05;
+set: real tower_body11_I23 = 0.000000e+00;
+set: real tower_body11_I33 = 8.230604e+05;
+
+
+#============================================================
+# Body: 12
+#============================================================
+
+set: integer tower_body12_label = 12;
+set: real tower_body12_xcm = 0.000000e+00;
+set: real tower_body12_ycm = 0.000000e+00;
+set: real tower_body12_zcm = -3.062654e-03;
+set: real tower_body12_mass = 3.730298e+04;
+set: real tower_body12_I11 = 5.108462e+05;
+set: real tower_body12_I12 = 0.000000e+00;
+set: real tower_body12_I13 = 0.000000e+00;
+set: real tower_body12_I22 = 5.108462e+05;
+set: real tower_body12_I23 = 0.000000e+00;
+set: real tower_body12_I33 = 7.590179e+05;
+
+
+#============================================================
+# Body: 13
+#============================================================
+
+set: integer tower_body13_label = 13;
+set: real tower_body13_xcm = 0.000000e+00;
+set: real tower_body13_ycm = 0.000000e+00;
+set: real tower_body13_zcm = -9.393036e-02;
+set: real tower_body13_mass = 3.493365e+04;
+set: real tower_body13_I11 = 4.702757e+05;
+set: real tower_body13_I12 = 0.000000e+00;
+set: real tower_body13_I13 = 0.000000e+00;
+set: real tower_body13_I22 = 4.702757e+05;
+set: real tower_body13_I23 = 0.000000e+00;
+set: real tower_body13_I33 = 6.951915e+05;
+
+
+#============================================================
+# Body: 14
+#============================================================
+
+set: integer tower_body14_label = 14;
+set: real tower_body14_xcm = 0.000000e+00;
+set: real tower_body14_ycm = 0.000000e+00;
+set: real tower_body14_zcm = -3.225752e-03;
+set: real tower_body14_mass = 3.258956e+04;
+set: real tower_body14_I11 = 4.314529e+05;
+set: real tower_body14_I12 = 0.000000e+00;
+set: real tower_body14_I13 = 0.000000e+00;
+set: real tower_body14_I22 = 4.314529e+05;
+set: real tower_body14_I23 = 0.000000e+00;
+set: real tower_body14_I33 = 6.334217e+05;
+
+
+#============================================================
+# Body: 15
+#============================================================
+
+set: integer tower_body15_label = 15;
+set: real tower_body15_xcm = 0.000000e+00;
+set: real tower_body15_ycm = 0.000000e+00;
+set: real tower_body15_zcm = -1.021319e-01;
+set: real tower_body15_mass = 3.035217e+04;
+set: real tower_body15_I11 = 3.942917e+05;
+set: real tower_body15_I12 = 0.000000e+00;
+set: real tower_body15_I13 = 0.000000e+00;
+set: real tower_body15_I22 = 3.942917e+05;
+set: real tower_body15_I23 = 0.000000e+00;
+set: real tower_body15_I33 = 5.754198e+05;
+
+
+#============================================================
+# Body: 16
+#============================================================
+
+set: integer tower_body16_label = 16;
+set: real tower_body16_xcm = 0.000000e+00;
+set: real tower_body16_ycm = 0.000000e+00;
+set: real tower_body16_zcm = -5.227265e-03;
+set: real tower_body16_mass = 2.800056e+04;
+set: real tower_body16_I11 = 3.544587e+05;
+set: real tower_body16_I12 = 0.000000e+00;
+set: real tower_body16_I13 = 0.000000e+00;
+set: real tower_body16_I22 = 3.544587e+05;
+set: real tower_body16_I23 = 0.000000e+00;
+set: real tower_body16_I33 = 5.117483e+05;
+
+
+#============================================================
+# Body: 17
+#============================================================
+
+set: integer tower_body17_label = 17;
+set: real tower_body17_xcm = 0.000000e+00;
+set: real tower_body17_ycm = 0.000000e+00;
+set: real tower_body17_zcm = -9.187278e-02;
+set: real tower_body17_mass = 2.603391e+04;
+set: real tower_body17_I11 = 3.182912e+05;
+set: real tower_body17_I12 = 0.000000e+00;
+set: real tower_body17_I13 = 0.000000e+00;
+set: real tower_body17_I22 = 3.182912e+05;
+set: real tower_body17_I23 = 0.000000e+00;
+set: real tower_body17_I33 = 4.532302e+05;
+
+
+#============================================================
+# Body: 18
+#============================================================
+
+set: integer tower_body18_label = 18;
+set: real tower_body18_xcm = 0.000000e+00;
+set: real tower_body18_ycm = 0.000000e+00;
+set: real tower_body18_zcm = -1.871282e-02;
+set: real tower_body18_mass = 2.326688e+04;
+set: real tower_body18_I11 = 2.611019e+05;
+set: real tower_body18_I12 = 0.000000e+00;
+set: real tower_body18_I13 = 0.000000e+00;
+set: real tower_body18_I22 = 2.611019e+05;
+set: real tower_body18_I23 = 0.000000e+00;
+set: real tower_body18_I33 = 3.583825e+05;
+
+
+#============================================================
+# Body: 19
+#============================================================
+
+set: integer tower_body19_label = 19;
+set: real tower_body19_xcm = 0.000000e+00;
+set: real tower_body19_ycm = 0.000000e+00;
+set: real tower_body19_zcm = 2.108748e-02;
+set: real tower_body19_mass = 2.279227e+04;
+set: real tower_body19_I11 = 2.288152e+05;
+set: real tower_body19_I12 = 0.000000e+00;
+set: real tower_body19_I13 = 0.000000e+00;
+set: real tower_body19_I22 = 2.288152e+05;
+set: real tower_body19_I23 = 0.000000e+00;
+set: real tower_body19_I33 = 3.049654e+05;
+
+
+#============================================================
+# Body: 20
+#============================================================
+
+set: integer tower_body20_label = 20;
+set: real tower_body20_xcm = 0.000000e+00;
+set: real tower_body20_ycm = 0.000000e+00;
+set: real tower_body20_zcm = -1.537599e-02;
+set: real tower_body20_mass = 2.251705e+04;
+set: real tower_body20_I11 = 2.056702e+05;
+set: real tower_body20_I12 = 0.000000e+00;
+set: real tower_body20_I13 = 0.000000e+00;
+set: real tower_body20_I22 = 2.056702e+05;
+set: real tower_body20_I23 = 0.000000e+00;
+set: real tower_body20_I33 = 2.674175e+05;
+
+
+#============================================================
+# Body: 21
+#============================================================
+
+set: integer tower_body21_label = 21;
+set: real tower_body21_xcm = 0.000000e+00;
+set: real tower_body21_ycm = 0.000000e+00;
+set: real tower_body21_zcm = -1.540203e+00;
+set: real tower_body21_mass = 1.075539e+04;
+set: real tower_body21_I11 = 6.684166e+04;
+set: real tower_body21_I12 = 0.000000e+00;
+set: real tower_body21_I13 = 0.000000e+00;
+set: real tower_body21_I22 = 6.684166e+04;
+set: real tower_body21_I23 = 0.000000e+00;
+set: real tower_body21_I33 = 1.164970e+05;

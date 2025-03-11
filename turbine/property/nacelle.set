@@ -1,0 +1,10 @@
+
+#============================================================
+# nacelle mass property
+#============================================================
+
+set: real nacelleMass   =   675175.             ;   #nacelle mass                   [kg]
+
+set: real nacelleIneria_x   =   9912933.        ;   #nacelle inertia about rolling  [kgm2]
+set: real nacelleIneria_y   =   10862815.       ;   #nacelle inertia about pitching [kgm2]
+set: real nacelleIneria_z   =   10360761.       ;   #nacelle inertia abount yawing  [kgm2] 

@@ -1,0 +1,19 @@
+
+#********************************************************************
+#  Hydrodynamic Member
+#  Outer Column
+#********************************************************************
+
+# member properties------------------
+set: real L_OC          =   35.     ;       # member length    [m]
+set: real D_OC          =   12.50   ;       # member diameter  [m]
+set: real CD_OC         =   0.6     ;       # drag coeff.
+set: real CA_OC         =   1.0     ;       # added mass coeff.
+set: real CM_OC         =   CA_OC+1.;       # inertia coeff.
+
+set: real CDV_OC        =   2.0     ;       # bottom surface drag coeff.
+set: real CAV_OC        =   1.0     ;       # bottom surface added mass coeff.
+
+# utilities--------------------------
+set: real A_OC = 0.25*pi*D_OC*D_OC;
+set: real V_OC = 0.125*2./3.*pi*D_OC*D_OC*D_OC;

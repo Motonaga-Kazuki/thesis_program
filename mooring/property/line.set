@@ -1,0 +1,15 @@
+
+#********************************************************************
+#  Mooring Line
+#********************************************************************
+
+# Mooring line properties------------
+set: real lineDensity   =   685.    ;       #mass density in air    [kg/m]
+set: real lineDiameter  =   0.185   ;       #nominal dimater        [m]
+set: real lineLength    =   850.    ;       #line total length      [m]
+
+# Utilities--------------------------
+set: real lineDisplaceDiameter = 1.8*lineDiameter;
+set: real lineArea = 0.25*pi*lineDisplaceDiameter^2;
+set: real lineWeight = (lineDensity-waterDensity*lineArea)*gravityAccel;
+

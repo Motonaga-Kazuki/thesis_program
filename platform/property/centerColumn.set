@@ -1,0 +1,19 @@
+
+#********************************************************************
+#  Hydrodynamic Member
+#  Center column
+#********************************************************************
+
+# member properties------------------
+set: real L_CC          =   35.     ;       # member length    [m]
+set: real D_CC          =   10.     ;       # member diameter  [m]
+set: real CD_CC         =   0.6     ;       # drag coeff.
+set: real CA_CC         =   1.0     ;       # added mass coeff.
+set: real CM_CC         =   CA_CC+1.;       # inertia coeff.
+
+set: real CDV_CC        =   2.0     ;       # bottom surface drag coeff.
+set: real CAV_CC        =   1.0     ;       # bottom surface added mass coeff.
+
+# utilities--------------------------
+set: real A_CC = 0.25*pi*D_CC*D_CC;
+set: real V_CC = 0.125*2./3.*pi*D_CC*D_CC*D_CC;
