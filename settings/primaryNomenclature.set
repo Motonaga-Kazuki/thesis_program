@@ -1,0 +1,49 @@
+
+/*------------------------------------------------------------------
+Nomenclature
+ AAA|BBB|CCC
+ AAA  -> Order of design components
+ BBB  -> Order of MBDyn elements
+ CCC  -> Label of primitive objects
+------------------------------------------------------------------*/
+
+
+#------------------------------------
+#Order of design components
+#------------------------------------
+set: integer labelPlatform  = 1     * 1000000;      # Platform
+set: integer labelMooring1  = 2     * 1000000;      # mooring 1
+set: integer labelMooring2  = 3     * 1000000;      # mooring 2
+set: integer labelMooring3  = 4     * 1000000;      # mooring 3
+set: integer labelTower     = 5     * 1000000;      # Tower
+set: integer labelShell     = 6     * 1000000;      # Tower base (shell model)
+set: integer labelTurbine   = 7     * 1000000;      # Turbine
+set: integer labelBlade1    = 8     * 1000000;      # Blade 1
+set: integer labelBlade2    = 9     * 1000000;      # Blade 2
+set: integer labelBlade3    = 10    * 1000000;      # Blade 3
+set: integer labelController = 98   * 1000000;      # Controller
+set: integer labelSensor     = 99   * 1000000;      # Sensor
+
+
+#------------------------------------
+#Order of MBDyn objects
+#------------------------------------
+set: integer labelReferece = 1      * 1000;         # Reference frame
+set: integer labelSNode    = 2      * 1000;         # Structual node
+set: integer labelANode    = 3      * 1000;         # Abstract node
+set: integer labelBody     = 4      * 1000;         # Rigid body
+set: integer labelJoint    = 5      * 1000;         # Joint
+set: integer labelForce    = 6      * 1000;         # Force
+set: integer labelGenel    = 7      * 1000;         # General element
+set: integer labelBeam     = 8      * 1000;         # Beam3
+set: integer labelPlate    = 9      * 1000;         # Induced velocity (rotor)
+set: integer labelAero     = 10     * 1000;         # Aerodynamic beam
+set: integer labelRotor    = 11     * 1000;         # Induced velocity (rotor)
+
+set: integer labelHydr     = 20     * 1000;         # SparDyn  (User defined)
+set: integer labelMoor     = 21     * 1000;         # Catenary (User defined)
+
+set: integer labelAirfoil  = 81     * 1000;         # Airfoils
+
+set: integer labelDrive    = 100    * 1000;         # Drive caller
+set: integer labelCLaw     = 101    * 1000;         # Constitutive law

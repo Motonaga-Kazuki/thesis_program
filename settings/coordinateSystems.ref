@@ -1,0 +1,244 @@
+
+#------------------------------------
+#  Label
+#------------------------------------
+set: integer platformFrame			= labelPlatform + labelReferece + 0;
+
+set: integer mooring1Frame			= labelMooring1 + labelReferece + 0;
+set: integer mooring2Frame			= labelMooring2 + labelReferece + 0;
+set: integer mooring3Frame			= labelMooring3 + labelReferece + 0;
+
+set: integer towerBaseFrame			= labelTower	+ labelReferece + 0;
+set: integer towerTopFrame			= labelTower	+ labelReferece + 1;
+set: integer towerSBInterface		= labelTower	+ labelReferece + 2;
+
+set: integer turbineFrame			= labelTurbine + labelReferece + 0;
+set: integer turbineFrameTilt		= labelTurbine + labelReferece + 1;
+set: integer rotorFrame				= labelTurbine + labelReferece + 2;
+
+set: integer rotorFrameBlade1		= labelBlade1  + labelReferece + 0;
+set: integer rotorFrameBlade1Coning	= labelBlade1  + labelReferece + 1;
+set: integer blade1Frame			= labelBlade1  + labelReferece + 2;
+set: integer blade1FramePitch		= labelBlade1  + labelReferece + 3;
+
+set: integer rotorFrameBlade2		= labelBlade2  + labelReferece + 0;
+set: integer rotorFrameBlade2Coning	= labelBlade2  + labelReferece + 1;
+set: integer blade2Frame			= labelBlade2  + labelReferece + 2;
+set: integer blade2FramePitch		= labelBlade2  + labelReferece + 3;
+
+set: integer rotorFrameBlade3		= labelBlade3  + labelReferece + 0;
+set: integer rotorFrameBlade3Coning	= labelBlade3  + labelReferece + 1;
+set: integer blade3Frame			= labelBlade3  + labelReferece + 2;
+set: integer blade3FramePitch		= labelBlade3  + labelReferece + 3;
+
+
+
+#------------------------------------
+#  Platform
+#------------------------------------
+reference: platformFrame,
+	reference, global,
+		platform_X, platform_Y, platform_Z,
+	reference, global, 
+		euler321, platform_RZ, platform_RY, platform_RX,
+	reference, global, null,
+	reference, global, null;
+
+
+
+#------------------------------------
+#  Mooring 1
+#------------------------------------
+reference: mooring1Frame,
+	reference, platformFrame,
+		mooring1_xf, mooring1_yf, mooring1_zf,
+	reference, platformFrame, 
+		1, -cos(mooring1Azimuth), -sin(mooring1Azimuth), 0.,
+		3, 0., 0., 1.,
+	reference, platformFrame, null,
+	reference, platformFrame, null;
+
+
+
+#------------------------------------
+#  Mooring 2
+#------------------------------------
+reference: mooring2Frame,
+	reference, platformFrame,
+		mooring2_xf, mooring2_yf, mooring2_zf,
+	reference, platformFrame, 
+		1, -cos(mooring2Azimuth), -sin(mooring2Azimuth), 0.,
+		3, 0., 0., 1.,
+	reference, platformFrame, null,
+	reference, platformFrame, null;
+
+
+
+#------------------------------------
+#  Mooring 3
+#------------------------------------
+reference: mooring3Frame,
+	reference, platformFrame,
+		mooring3_xf, mooring3_yf, mooring3_zf,
+	reference, platformFrame, 
+		1, -cos(mooring3Azimuth), -sin(mooring3Azimuth), 0.,
+		3, 0., 0., 1.,
+	reference, platformFrame, null,
+	reference, platformFrame, null;
+
+
+
+#------------------------------------
+#  Tower
+#------------------------------------
+reference: towerBaseFrame,
+	reference, platformFrame,
+		towerBase_x, towerBase_y, towerBase_z,
+	reference, platformFrame,
+		1, -1., 0., 0.,
+		3,  0., 0., 1.,	
+	reference, platformFrame, null,
+	reference, platformFrame, null;
+
+reference: towerTopFrame,
+	reference, towerBaseFrame, 0., 0., towerHeight,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+reference: towerSBInterface,
+	reference, towerBaseFrame, 0., 0., towerShellPartLength,
+	reference, towerBaseFrame, eye,
+	reference, towerBaseFrame, null,
+	reference, towerBaseFrame, null;
+
+
+#------------------------------------
+#  Turbine
+#------------------------------------
+reference: turbineFrame,
+	reference, towerTopFrame, 0., 0., shaftHeight,
+	reference, towerTopFrame, 
+		1,  0., 0., 1.,
+		3,  1., 0., 0.,		
+	reference, towerTopFrame, null,
+	reference, towerTopFrame, null;
+
+reference: turbineFrameTilt,
+	reference, turbineFrame, null,
+	reference, turbineFrame,
+		2, 0., 1., 0.,
+		3, -sin(rotorTiltAngle), 0., cos(rotorTiltAngle),
+	reference, turbineFrame, null,
+	reference, turbineFrame, null;
+
+reference: rotorFrame,
+	reference, turbineFrameTilt, 0., 0., shaftOverHang,
+	reference, turbineFrameTilt, eye,
+	reference, turbineFrameTilt, null,
+	reference, turbineFrameTilt, null;
+
+
+
+#------------------------------------
+#  Blade 1
+#------------------------------------
+reference: rotorFrameBlade1,
+	reference, rotorFrame, null,
+	reference, rotorFrame,
+		1, 0., 0., 1.,
+		3, cos(blade1Azimuth),  sin(blade1Azimuth), 0.,
+	reference, rotorFrame, null,
+	reference, rotorFrame, null;
+
+reference: rotorFrameBlade1Coning,
+	reference, rotorFrameBlade1, null,
+	reference, rotorFrameBlade1,
+		2, 0., 1., 0.,
+		3, -sin(rotorPrecone), 0., cos(rotorPrecone),
+	reference, rotorFrameBlade1, null,
+	reference, rotorFrameBlade1, null;
+
+reference: blade1Frame,
+	reference, rotorFrameBlade1Coning, 0., 0., hubRadius,
+	reference, rotorFrameBlade1Coning, eye,
+	reference, rotorFrameBlade1Coning, null,
+	reference, rotorFrameBlade1Coning, null;
+
+reference: blade1FramePitch,
+	reference, blade1Frame, null,
+	reference, blade1Frame,
+		1, cos(blade1InitialPitch), -sin(blade1InitialPitch), 0.,
+		3, 0., 0., 1.,
+	reference, blade1Frame, null,
+	reference, blade1Frame, null;
+
+
+
+#------------------------------------
+#  Blade 2
+#------------------------------------
+reference: rotorFrameBlade2,
+	reference, rotorFrame, null,
+	reference, rotorFrame,
+		1, 0., 0., 1.,
+		3, cos(blade2Azimuth),  sin(blade2Azimuth), 0.,
+	reference, rotorFrame, null,
+	reference, rotorFrame, null;
+
+reference: rotorFrameBlade2Coning,
+	reference, rotorFrameBlade2, null,
+	reference, rotorFrameBlade2,
+		2, 0., 1., 0.,
+		3, -sin(rotorPrecone), 0., cos(rotorPrecone),
+	reference, rotorFrameBlade2, null,
+	reference, rotorFrameBlade2, null;
+
+reference: blade2Frame,
+	reference, rotorFrameBlade2Coning, 0., 0., hubRadius,
+	reference, rotorFrameBlade2Coning, eye,
+	reference, rotorFrameBlade2Coning, null,
+	reference, rotorFrameBlade2Coning, null;
+
+reference: blade2FramePitch,
+	reference, blade2Frame, null,
+	reference, blade2Frame,
+		1, cos(blade2InitialPitch), -sin(blade2InitialPitch), 0.,
+		3, 0., 0., 1.,
+	reference, blade2Frame, null,
+	reference, blade2Frame, null;
+
+
+
+#------------------------------------
+#  Blade 3
+#------------------------------------
+reference: rotorFrameBlade3,
+	reference, rotorFrame, null,
+	reference, rotorFrame,
+		1, 0., 0., 1.,
+		3, cos(blade3Azimuth),  sin(blade3Azimuth), 0.,
+	reference, rotorFrame, null,
+	reference, rotorFrame, null;
+
+reference: rotorFrameBlade3Coning,
+	reference, rotorFrameBlade3, null,
+	reference, rotorFrameBlade3,
+		2, 0., 1., 0.,
+		3, -sin(rotorPrecone), 0., cos(rotorPrecone),
+	reference, rotorFrameBlade3, null,
+	reference, rotorFrameBlade3, null;
+
+reference: blade3Frame,
+	reference, rotorFrameBlade3Coning, 0., 0., hubRadius,
+	reference, rotorFrameBlade3Coning, eye,
+	reference, rotorFrameBlade3Coning, null,
+	reference, rotorFrameBlade3Coning, null;
+
+reference: blade3FramePitch,
+	reference, blade3Frame, null,
+	reference, blade3Frame,
+		1, cos(blade3InitialPitch), -sin(blade3InitialPitch), 0.,
+		3, 0., 0., 1.,
+	reference, blade3Frame, null,
+	reference, blade3Frame, null;

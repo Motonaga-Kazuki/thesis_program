@@ -1,0 +1,136 @@
+
+#********************************************************************
+#  Platform
+#********************************************************************
+# Platform properties----------------
+include: "platform/property/platform.set";
+
+# Platform---------------------------
+# initial position and orientation
+set: real platform_X        =   0.0         ;       # globlal X         [m]
+set: real platform_Y        =   0.0         ;       # globlal Y         [m]
+set: real platform_Z        =   0.0         ;       # globlal Z         [m]
+
+set: real platform_RX       =   0.0 *deg2rad;       # globlal RX        [rad]
+set: real platform_RY       =   0.0 *deg2rad;       # globlal RY        [rad]
+set: real platform_RZ       =   0.0 *deg2rad;       # globlal RZ        [rad]
+
+
+#********************************************************************
+#  Mooring System
+#********************************************************************
+# Mooring properties-----------------
+set: integer N_mooring = 3;
+include: "mooring/property/line.set";
+
+# Line 1-----------------------------
+set: real mooring1_xf       =   58.0        ;       # fairlead position x   [m] (platform)
+set: real mooring1_yf       =   0.0         ;       # fairlead position y   [m] (platform)
+set: real mooring1_zf       =  -14.0        ;       # fairlead position z   [m] (platform)
+set: real mooring1_Xa       =   837.707     ;       # anchor position X     [m] (global)
+set: real mooring1_Ya       =   0.0         ;       # anchor position Y     [m] (global)
+set: real mooring1_Za       =  -waterDepth  ;       # anchor position Z     [m] (global)
+set: real mooring1Azimuth   =   0.0 *deg2rad;       # spread azimuth angle  [rad]
+
+# Line 2-----------------------------
+set: real mooring2_xf       =  -29.0        ;       # fairlead position x   [m] (platform)
+set: real mooring2_yf       =   50.229473   ;       # fairlead position y   [m] (platform)
+set: real mooring2_zf       =  -14.0        ;       # fairlead position z   [m] (platform)
+set: real mooring2_Xa       =  -418.854     ;       # anchor position X     [m] (global)
+set: real mooring2_Ya       =   725.476     ;       # anchor position Y     [m] (global)
+set: real mooring2_Za       =  -waterDepth  ;       # anchor position Z     [m] (global)
+set: real mooring2Azimuth   =   120.*deg2rad;       # spread azimuth angle  [rad]
+
+# Line 3-----------------------------
+set: real mooring3_xf       =  -29.0        ;       # fairlead position x   [m] (platform)
+set: real mooring3_yf       =  -50.229473   ;       # fairlead position y   [m] (platform)
+set: real mooring3_zf       =  -14.0        ;       # fairlead position z   [m] (platform)
+set: real mooring3_Xa       =  -418.854     ;       # anchor position X     [m] (global)
+set: real mooring3_Ya       =  -725.476     ;       # anchor position Y     [m] (global)
+set: real mooring3_Za       =  -waterDepth  ;       # anchor position Z     [m] (global)
+set: real mooring3Azimuth   =  -120.*deg2rad;       # spread azimuth angle  [rad]
+
+
+#********************************************************************
+#  Tower
+#********************************************************************
+# Tower properties-------------------
+include: "tower/property/tower.set";
+# tower base position with the platform frame
+                                                    # <tower base position in platform coordinate>
+set: real towerBase_x       =   0.0         ;       # position of tower base x  [m]
+set: real towerBase_y       =   0.0         ;       # position of tower base y  [m]
+set: real towerBase_z       =  15.0         ;       # position of tower base z  [m]
+set: real towerHeight       = 129.386       ;       # tower height      [m]
+
+
+#********************************************************************
+#  Turbine
+#********************************************************************
+# Rotor------------------------------
+set: real rotorDiameter     =   240.0       ;       # rotor diameter    [m]
+set: real rotorTiltAngle    =   6.0 *deg2rad;       # tilt angle        [rad]
+set: real rotorPrecone      =   4.0 *deg2rad;       # precone angle     [rad]
+
+# Nacelle----------------------------
+include: "turbine/property/nacelle.set";            # nacelle properties
+                                                    # <nacelle CG offset in the tower top coordinate>
+set: real nacelleCG_x       =  -4.603       ;       # position of nacell CG x  [m]
+set: real nacelleCG_y       =   0.0         ;       # position of nacell CG y  [m]
+set: real nacelleCG_z       =   4.534       ;       # position of nacell CG z  [m]
+
+# Main shaft-------------------------
+set: real shaftHeight       =   4.3495      ;       # vertical distance from the tower top to the rotor shaft   [m]
+set: real shaftOverHang     =  -12.098      ;       # overhang (distance from the rotor shaft to the hub center)[m]
+
+# Hub--------------------------------
+include: "turbine/property/hub.set";                # hub properties
+set: real hubDiameter       =   7.94        ;       # hub diameter      [m]
+
+# Utilities--------------------------
+set: real rotorRadius = rotorDiameter/2.0;
+set: real hubRadius = hubDiameter/2.0;
+
+
+#********************************************************************
+#  Blade
+#********************************************************************
+# Blade properties-------------------
+include: "blade/property/blade.set";
+
+# Blade------------------------------
+set: integer N_blade = 3;
+set: real rotorInitialAngle = 0.0 *deg2rad;         # initial angle     [rad] (positive is clockwise)
+set: real bladeInitialPitch = 0. *deg2rad;          # initial pitch     [rad]
+set: real psi_blade = 360.0/N_blade *deg2rad;       # blade interval    [rad]
+
+# Blade 1----------------------------
+set: real blade1Azimuth = rotorInitialAngle + psi_blade * 0;
+set: real blade1InitialPitch = bladeInitialPitch;
+
+# Blade 2----------------------------
+set: real blade2Azimuth = rotorInitialAngle + psi_blade * 1;
+set: real blade2InitialPitch = bladeInitialPitch;
+
+# Blade 3----------------------------
+set: real blade3Azimuth = rotorInitialAngle + psi_blade * 2;
+set: real blade3InitialPitch = bladeInitialPitch;
+
+
+#********************************************************************
+#  Controller
+#********************************************************************
+#Controller: generator torque (rotor speed control strategy)
+set: real wc        = 1.0                   ;       #LPF cut-off frequency    [rad/s]
+set: real KP        = 4.e7                  ;       #proportional gain
+set: real KI        = 3.e6                  ;       #integral gain
+set: real targetTSR = 9.0                   ;       #target TSR value
+set: real minTorque = 0.0                   ;       #minimum regulated torque [Nm]
+set: real maxTorque = 2.2e7                 ;       #maximum regulated torque [Nm]
+
+#Controller: imposed Rotation
+set: real rotorImposedSpeed = 7.55 * RPM2rps  ;       #imposed rotor speed [rad/s]
+#set: real rotorImposedSpeed = windSpeed*targetTSR/rotorRadius;
+
+#Controller: specified Torque
+set: real specifiedTorque   = 0.*1.e3       ;       #generator torque    [Nm]
