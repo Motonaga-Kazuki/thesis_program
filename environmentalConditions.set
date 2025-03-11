@@ -1,0 +1,27 @@
+
+#********************************************************************
+#  Environmental conditions
+#********************************************************************
+
+# Wind-------------------------------
+set: real airDensity        =   1.225       ;       # air density       [kg/m3]
+set: real MachSpeed         =   340.0       ;       # Mach speed        [m/s]
+
+set: real windSpeed         =   0.          ;       # wind speed        [m/s]
+set: real windDirection     =   180 *deg2rad;       # horizontal wind direction [rad]
+                                                    #  - positive is toward global X
+set: real upFlowAngle       =   0.0 *deg2rad;       # vertical wind direction [rad]
+                                                    #  - positive is lift from global XY
+
+# Water------------------------------
+set: real waterDensity      =   1025.       ;       # water density     [kg/m3]
+set: real waterDepth        =   200.        ;       # water depth       [m]
+set: string waveFile = "../../wave.ipt"     ;       # wave input file
+
+# Gravity----------------------------
+set: real gravityAccel      =   9.80665     ;       # gravity accerelation [m/s2]
+
+# Utilities--------------------------
+set: real v_ex = cos(windDirection)*cos(upFlowAngle) ;
+set: real v_ey = sin(windDirection)*cos(upFlowAngle) ;
+set: real v_ez = sin(upFlowAngle)                    ;
