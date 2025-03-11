@@ -1,0 +1,257 @@
+/*---------------------------------------------------------------------------
+MBDyn INPUT FILE based on MBDyn-ver.1.7.3
+
+MODEL:
+	IEA15MW Reference Offshore Wind Turbine
+	with the semisubmersible platform VolturnUS-S
+
+REFERENCES:
+	https://www.nrel.gov/docs/fy20osti/75698.pdf
+	https://www.nrel.gov/docs/fy20osti/76773.pdf
+
+Implemented by Ocean Energy Resources Laboratory, Kyushu University
+---------------------------------------------------------------------------*/
+
+#=======================================================
+# module load
+#=======================================================
+module load: "/usr/local/mbdyn/libexec/libmodule-spardyn_b1.10.5.la";
+module load: "/usr/local/mbdyn/libexec/libmodule-catenary.la";
+
+
+#=======================================================
+# problem definition
+#=======================================================
+begin: data;
+	problem: initial value;
+end: data;
+
+
+#=======================================================
+# simulation control
+#=======================================================
+set: real T_Start           = 0.    ;		# simulation start time
+set: real T_StartUpEnd      = 10.   ;		# start-up end time
+set: real T_RampUpEnd       = 70.   ;		# ramp-up end time 
+set: real T_Stop            = 670.  ;		# simulation end time
+set: real timeStep          = 0.02  ;		# time step
+set: real outputTimeStep    = 0.2   ;		# out put time step
+
+begin: initial value;
+	initial time: T_Start;
+	final time:  T_Stop;
+	time step: timeStep;
+
+	tolerance: 1.0;
+	max iterations: 100;
+
+	derivatives tolerance: 1.e8;
+	derivatives max iterations: 100;
+
+	linear solver: umfpack, cc;
+	nonlinear solver: newton raphson, modified, 10;
+	method: ms, .6;
+end: initial value;
+
+
+#=======================================================
+# number of objects
+#=======================================================
+begin: control data;
+	#---------------------------------------------------
+	output meter:
+		closest next, 0., forever,
+		const, outputTimeStep;
+	default output: none,
+		structural nodes,
+		beams,
+		forces,
+		joints,
+        plates
+	;
+	#---------------------------------------------------
+	structural nodes:			75	# platform
+							+	1	# mooring1
+							+	1	# mooring2
+							+	1	# mooring3							
+							+	23	# tower
+                            +   440 # tower base
+							+	6	# turbine
+							+	33	# blade1
+							+	33	# blade2
+							+	33	# blade3
+	;
+	#---------------------------------------------------
+	abstract nodes:				0	#
+	#						+   2   # controller(generator torque)	
+							+	1	# sensor
+	;		
+	#---------------------------------------------------
+	rigid bodies:				74	# platform
+							+	0	# mooring1
+							+	0	# mooring2
+							+	0	# mooring3	
+							+	21	# tower
+                            +   440 # tower base
+							+	2	# turbine
+							+	33	# blade1
+							+	33	# blade2
+							+	33	# blade3
+	;
+	#---------------------------------------------------
+	beams:						31	# platform
+							+	0	# mooring1
+							+	0	# mooring2
+							+	0	# mooring3
+							+	10	# tower
+							+	0	# turbine						
+							+	16	# blade1
+							+	16	# blade2
+							+	16	# blade3
+	;
+	#---------------------------------------------------
+	plates:					   400  # tower base
+	;    
+	#---------------------------------------------------
+	aerodynamic elements:		16	# blade1
+							+	16	# blade2
+							+	16	# blade3
+	;
+	#---------------------------------------------------
+	joints:						12	# platform
+							+	1	# mooring1
+							+	1	# mooring2
+							+	1	# mooring3
+							+	2	# tower	
+                            +   80  # tower base
+							+	6	# turbine
+							+	1	# blade1
+							+	1	# blade2
+							+	1	# blade3
+							+   1   # controller(imposed rotation)
+	#						+   3   # controller(imposed blade pitch)
+							+	1	# initialization
+	;
+	#---------------------------------------------------
+	forces:						0
+	#						+   1   # controller(specified torque)
+	#						+   1   # controller(generator torque)
+							+	1	# sensor
+	;
+	#---------------------------------------------------
+	genels:						0
+	#						+   2   # controller(generator torque)	
+							+	1	# sensor
+	;	
+	#---------------------------------------------------
+	induced velocity elements:	1;	# turbine
+	#---------------------------------------------------
+	loadable elements:			73  # platform
+							+	1	# mooring1
+							+	1	# mooring2
+							+	1	# mooring3
+	;
+	#---------------------------------------------------
+	gravity						 ;
+	air properties				 ;
+	#---------------------------------------------------
+end: control data;
+
+
+#=======================================================
+# load utilities
+#=======================================================
+include: "utility/constant.set";
+include: "utility/drives.set";
+
+
+#=======================================================
+# primary set data of model
+#=======================================================
+include: "model/primaryNomenclature.set";
+include: "model/environmentalConditions.set";
+include: "model/primaryDesign.set";
+include: "model/towerbase/towerBase.set";
+include: "model/coordinateSystems.ref";
+
+
+#=======================================================
+# nodes
+#=======================================================
+begin: nodes;
+	include: "model/platform/platform.nod";
+	include: "model/mooring/line1/line1.nod";
+	include: "model/mooring/line2/line2.nod";
+	include: "model/mooring/line3/line3.nod";
+	include: "model/tower/tower.nod";
+    include: "model/towerbase/towerBase.nod";
+	include: "model/turbine/turbine.nod";
+	include: "model/blade/blade1/blade1.nod";
+	include: "model/blade/blade2/blade2.nod";
+	include: "model/blade/blade3/blade3.nod";
+	#include: "model/controller/generatorTorqueControl/controller.nod";	
+	include: "model/sensor/sensor.nod";
+end: nodes;
+
+
+#=======================================================
+# elements
+#=======================================================
+begin: elements;
+	#environment----------------------------------------
+	include: "model/environment/environment.elm";
+	#platform-------------------------------------------
+	include: "model/platform/platform_body.elm";
+	include: "model/platform/platform_beam.elm";
+	include: "model/platform/platform_joint.elm";
+	include: "model/platform/platform_user.elm";
+	#mooring 1------------------------------------------
+	include: "model/mooring/line1/line1_joint.elm";
+	include: "model/mooring/line1/line1_user.elm";
+	#mooring 2------------------------------------------
+	include: "model/mooring/line2/line2_joint.elm";
+	include: "model/mooring/line2/line2_user.elm";
+	#mooring 3------------------------------------------
+	include: "model/mooring/line3/line3_joint.elm";
+	include: "model/mooring/line3/line3_user.elm";
+	#tower----------------------------------------------
+	include: "model/tower/tower_body.elm";
+	include: "model/tower/tower_beam.elm";	
+	include: "model/tower/tower_joint.elm";
+	#tower----------------------------------------------
+	include: "model/towerbase/towerBase_body.elm";
+	include: "model/towerbase/towerBase_shell.elm";	
+	include: "model/towerbase/towerBase_joint.elm";
+	#turbine--------------------------------------------
+	include: "model/turbine/turbine_body.elm";
+	include: "model/turbine/turbine_aero.elm";
+	include: "model/turbine/turbine_joint.elm";
+	#blade 1--------------------------------------------
+	include: "model/blade/blade1/blade1_body.elm";
+	include: "model/blade/blade1/blade1_beam.elm";
+	include: "model/blade/blade1/blade1_aero.elm";
+	include: "model/blade/blade1/blade1_joint.elm";
+	#blade 2--------------------------------------------
+	include: "model/blade/blade2/blade2_body.elm";
+	include: "model/blade/blade2/blade2_beam.elm";
+	include: "model/blade/blade2/blade2_aero.elm";
+	include: "model/blade/blade2/blade2_joint.elm";
+	#blade 3--------------------------------------------
+	include: "model/blade/blade3/blade3_body.elm";
+	include: "model/blade/blade3/blade3_beam.elm";
+	include: "model/blade/blade3/blade3_aero.elm";
+	include: "model/blade/blade3/blade3_joint.elm";
+	#controller-----------------------------------------
+	/* imposed rotation controller */
+	include: "model/controller/imposedRotation/controller.elm";
+	/* specified torque controller */
+	#include: "model/controller/specifiedTorque/controller.elm";
+	/* generator torque controller */
+	#include: "model/controller/generatorTorqueControl/controller.elm";
+	/* imposed blade pitch controller */
+	#include: "model/controller/imposedBladePitch/controller.elm";
+	#sensor---------------------------------------------
+	include: "model/sensor/sensor.elm";
+	#initialization-------------------------------------
+	include: "model/initialization.elm";
+end: elements;

@@ -1,0 +1,396 @@
+
+
+#============================================================
+# Node: 1
+#============================================================
+
+set: integer blade_node1_label = 1;
+set: real blade_node1_x = 0.000000e+00;
+set: real blade_node1_y = 0.000000e+00;
+set: real blade_node1_z = 0.000000e+00;
+set: real blade_node1_orientation = 1.621635e-02;
+set: real blade_node1_twist = 2.721771e-01;
+
+
+#============================================================
+# Node: 2
+#============================================================
+
+set: integer blade_node2_label = 2;
+set: real blade_node2_x = 3.036030e-02;
+set: real blade_node2_y = 0.000000e+00;
+set: real blade_node2_z = 3.656250e+00;
+set: real blade_node2_orientation = 1.336553e-02;
+set: real blade_node2_twist = 2.709321e-01;
+
+
+#============================================================
+# Node: 3
+#============================================================
+
+set: integer blade_node3_label = 3;
+set: real blade_node3_x = 7.323438e-02;
+set: real blade_node3_y = 0.000000e+00;
+set: real blade_node3_z = 7.312500e+00;
+set: real blade_node3_orientation = 6.127049e-03;
+set: real blade_node3_twist = 2.602853e-01;
+
+
+#============================================================
+# Node: 4
+#============================================================
+
+set: integer blade_node4_label = 4;
+set: real blade_node4_x = 1.234715e-01;
+set: real blade_node4_y = 0.000000e+00;
+set: real blade_node4_z = 1.096875e+01;
+set: real blade_node4_orientation = 4.044950e-03;
+set: real blade_node4_twist = 2.402273e-01;
+
+
+#============================================================
+# Node: 5
+#============================================================
+
+set: integer blade_node5_label = 5;
+set: real blade_node5_x = 1.734766e-01;
+set: real blade_node5_y = 0.000000e+00;
+set: real blade_node5_z = 1.462500e+01;
+set: real blade_node5_orientation = 6.539569e-03;
+set: real blade_node5_twist = 2.146075e-01;
+
+
+#============================================================
+# Node: 6
+#============================================================
+
+set: integer blade_node6_label = 6;
+set: real blade_node6_x = 2.159629e-01;
+set: real blade_node6_y = 0.000000e+00;
+set: real blade_node6_z = 1.828125e+01;
+set: real blade_node6_orientation = 9.099342e-03;
+set: real blade_node6_twist = 1.870713e-01;
+
+
+#============================================================
+# Node: 7
+#============================================================
+
+set: integer blade_node7_label = 7;
+set: real blade_node7_x = 2.431466e-01;
+set: real blade_node7_y = 0.000000e+00;
+set: real blade_node7_z = 2.193750e+01;
+set: real blade_node7_orientation = 4.959521e-03;
+set: real blade_node7_twist = 1.611889e-01;
+
+
+#============================================================
+# Node: 8
+#============================================================
+
+set: integer blade_node8_label = 8;
+set: real blade_node8_x = 2.502102e-01;
+set: real blade_node8_y = 0.000000e+00;
+set: real blade_node8_z = 2.559375e+01;
+set: real blade_node8_orientation = 2.203576e-03;
+set: real blade_node8_twist = 1.400772e-01;
+
+
+#============================================================
+# Node: 9
+#============================================================
+
+set: integer blade_node9_label = 9;
+set: real blade_node9_x = 2.490592e-01;
+set: real blade_node9_y = 0.000000e+00;
+set: real blade_node9_z = 2.925000e+01;
+set: real blade_node9_orientation = 2.726316e-03;
+set: real blade_node9_twist = 1.227098e-01;
+
+
+#============================================================
+# Node: 10
+#============================================================
+
+set: integer blade_node10_label = 10;
+set: real blade_node10_x = 2.454831e-01;
+set: real blade_node10_y = 0.000000e+00;
+set: real blade_node10_z = 3.290625e+01;
+set: real blade_node10_orientation = 1.736025e-03;
+set: real blade_node10_twist = 1.058834e-01;
+
+
+#============================================================
+# Node: 11
+#============================================================
+
+set: integer blade_node11_label = 11;
+set: real blade_node11_x = 2.400494e-01;
+set: real blade_node11_y = 0.000000e+00;
+set: real blade_node11_z = 3.656250e+01;
+set: real blade_node11_orientation = 4.988681e-04;
+set: real blade_node11_twist = 9.023010e-02;
+
+
+#============================================================
+# Node: 12
+#============================================================
+
+set: integer blade_node12_label = 12;
+set: real blade_node12_x = 2.332702e-01;
+set: real blade_node12_y = 0.000000e+00;
+set: real blade_node12_z = 4.021875e+01;
+set: real blade_node12_orientation = -6.626422e-04;
+set: real blade_node12_twist = 7.629258e-02;
+
+
+#============================================================
+# Node: 13
+#============================================================
+
+set: integer blade_node13_label = 13;
+set: real blade_node13_x = 2.209698e-01;
+set: real blade_node13_y = 0.000000e+00;
+set: real blade_node13_z = 4.387500e+01;
+set: real blade_node13_orientation = -4.399677e-03;
+set: real blade_node13_twist = 6.442903e-02;
+
+
+#============================================================
+# Node: 14
+#============================================================
+
+set: integer blade_node14_label = 14;
+set: real blade_node14_x = 1.896976e-01;
+set: real blade_node14_y = 0.000000e+00;
+set: real blade_node14_z = 4.753125e+01;
+set: real blade_node14_orientation = -1.170889e-02;
+set: real blade_node14_twist = 5.428538e-02;
+
+
+#============================================================
+# Node: 15
+#============================================================
+
+set: integer blade_node15_label = 15;
+set: real blade_node15_x = 1.278045e-01;
+set: real blade_node15_y = 0.000000e+00;
+set: real blade_node15_z = 5.118750e+01;
+set: real blade_node15_orientation = -1.946729e-02;
+set: real blade_node15_twist = 4.521015e-02;
+
+
+#============================================================
+# Node: 16
+#============================================================
+
+set: integer blade_node16_label = 16;
+set: real blade_node16_x = 4.301090e-02;
+set: real blade_node16_y = 0.000000e+00;
+set: real blade_node16_z = 5.484375e+01;
+set: real blade_node16_orientation = -2.463535e-02;
+set: real blade_node16_twist = 3.701522e-02;
+
+
+#============================================================
+# Node: 17
+#============================================================
+
+set: integer blade_node17_label = 17;
+set: real blade_node17_x = -5.517028e-02;
+set: real blade_node17_y = 0.000000e+00;
+set: real blade_node17_z = 5.850000e+01;
+set: real blade_node17_orientation = -2.742313e-02;
+set: real blade_node17_twist = 2.952933e-02;
+
+
+#============================================================
+# Node: 18
+#============================================================
+
+set: integer blade_node18_label = 18;
+set: real blade_node18_x = -1.612637e-01;
+set: real blade_node18_y = 0.000000e+00;
+set: real blade_node18_z = 6.215625e+01;
+set: real blade_node18_orientation = -3.161172e-02;
+set: real blade_node18_twist = 2.259733e-02;
+
+
+#============================================================
+# Node: 19
+#============================================================
+
+set: integer blade_node19_label = 19;
+set: real blade_node19_x = -2.921908e-01;
+set: real blade_node19_y = 0.000000e+00;
+set: real blade_node19_z = 6.581250e+01;
+set: real blade_node19_orientation = -4.034221e-02;
+set: real blade_node19_twist = 1.637527e-02;
+
+
+#============================================================
+# Node: 20
+#============================================================
+
+set: integer blade_node20_label = 20;
+set: real blade_node20_x = -4.578164e-01;
+set: real blade_node20_y = 0.000000e+00;
+set: real blade_node20_z = 6.946875e+01;
+set: real blade_node20_orientation = -4.868892e-02;
+set: real blade_node20_twist = 1.077866e-02;
+
+
+#============================================================
+# Node: 21
+#============================================================
+
+set: integer blade_node21_label = 21;
+set: real blade_node21_x = -6.481984e-01;
+set: real blade_node21_y = 0.000000e+00;
+set: real blade_node21_z = 7.312500e+01;
+set: real blade_node21_orientation = -5.419790e-02;
+set: real blade_node21_twist = 5.476275e-03;
+
+
+#============================================================
+# Node: 22
+#============================================================
+
+set: integer blade_node22_label = 22;
+set: real blade_node22_x = -8.532673e-01;
+set: real blade_node22_y = 0.000000e+00;
+set: real blade_node22_z = 7.678125e+01;
+set: real blade_node22_orientation = -5.702822e-02;
+set: real blade_node22_twist = 1.292851e-04;
+
+
+#============================================================
+# Node: 23
+#============================================================
+
+set: integer blade_node23_label = 23;
+set: real blade_node23_x = -1.065078e+00;
+set: real blade_node23_y = 0.000000e+00;
+set: real blade_node23_z = 8.043750e+01;
+set: real blade_node23_orientation = -5.881386e-02;
+set: real blade_node23_twist = -5.767446e-03;
+
+
+#============================================================
+# Node: 24
+#============================================================
+
+set: integer blade_node24_label = 24;
+set: real blade_node24_x = -1.288312e+00;
+set: real blade_node24_y = 0.000000e+00;
+set: real blade_node24_z = 8.409375e+01;
+set: real blade_node24_orientation = -6.351858e-02;
+set: real blade_node24_twist = -1.303448e-02;
+
+
+#============================================================
+# Node: 25
+#============================================================
+
+set: integer blade_node25_label = 25;
+set: real blade_node25_x = -1.531878e+00;
+set: real blade_node25_y = 0.000000e+00;
+set: real blade_node25_z = 8.775000e+01;
+set: real blade_node25_orientation = -6.864189e-02;
+set: real blade_node25_twist = -2.166839e-02;
+
+
+#============================================================
+# Node: 26
+#============================================================
+
+set: integer blade_node26_label = 26;
+set: real blade_node26_x = -1.792430e+00;
+set: real blade_node26_y = 0.000000e+00;
+set: real blade_node26_z = 9.140625e+01;
+set: real blade_node26_orientation = -7.282278e-02;
+set: real blade_node26_twist = -2.969556e-02;
+
+
+#============================================================
+# Node: 27
+#============================================================
+
+set: integer blade_node27_label = 27;
+set: real blade_node27_x = -2.065862e+00;
+set: real blade_node27_y = 0.000000e+00;
+set: real blade_node27_z = 9.506250e+01;
+set: real blade_node27_orientation = -7.610366e-02;
+set: real blade_node27_twist = -3.595741e-02;
+
+
+#============================================================
+# Node: 28
+#============================================================
+
+set: integer blade_node28_label = 28;
+set: real blade_node28_x = -2.350221e+00;
+set: real blade_node28_y = 0.000000e+00;
+set: real blade_node28_z = 9.871875e+01;
+set: real blade_node28_orientation = -7.946733e-02;
+set: real blade_node28_twist = -3.787848e-02;
+
+
+#============================================================
+# Node: 29
+#============================================================
+
+set: integer blade_node29_label = 29;
+set: real blade_node29_x = -2.648372e+00;
+set: real blade_node29_y = 0.000000e+00;
+set: real blade_node29_z = 1.023750e+02;
+set: real blade_node29_orientation = -8.400867e-02;
+set: real blade_node29_twist = -3.768169e-02;
+
+
+#============================================================
+# Node: 30
+#============================================================
+
+set: integer blade_node30_label = 30;
+set: real blade_node30_x = -2.963204e+00;
+set: real blade_node30_y = 0.000000e+00;
+set: real blade_node30_z = 1.060312e+02;
+set: real blade_node30_orientation = -8.860284e-02;
+set: real blade_node30_twist = -3.617903e-02;
+
+
+#============================================================
+# Node: 31
+#============================================================
+
+set: integer blade_node31_label = 31;
+set: real blade_node31_x = -3.294589e+00;
+set: real blade_node31_y = 0.000000e+00;
+set: real blade_node31_z = 1.096875e+02;
+set: real blade_node31_orientation = -9.304355e-02;
+set: real blade_node31_twist = -3.325888e-02;
+
+
+#============================================================
+# Node: 32
+#============================================================
+
+set: integer blade_node32_label = 32;
+set: real blade_node32_x = -3.640777e+00;
+set: real blade_node32_y = 0.000000e+00;
+set: real blade_node32_z = 1.133438e+02;
+set: real blade_node32_orientation = -9.727106e-02;
+set: real blade_node32_twist = -2.842729e-02;
+
+
+#============================================================
+# Node: 33
+#============================================================
+
+set: integer blade_node33_label = 33;
+set: real blade_node33_x = -4.000000e+00;
+set: real blade_node33_y = 0.000000e+00;
+set: real blade_node33_z = 1.170000e+02;
+set: real blade_node33_orientation = -1.006257e-01;
+set: real blade_node33_twist = -2.168380e-02;

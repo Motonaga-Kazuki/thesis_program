@@ -1,0 +1,561 @@
+
+
+#============================================================
+# Body: 1
+#============================================================
+
+set: integer blade_body1_label = 1;
+set: real blade_body1_xcm = -6.378181e-05;
+set: real blade_body1_ycm = 5.307831e-03;
+set: real blade_body1_zcm = 9.140625e-01;
+set: real blade_body1_mass = 5.484471e+03;
+set: real blade_body1_I11 = 1.940390e+04;
+set: real blade_body1_I12 = -5.585058e-01;
+set: real blade_body1_I13 = 0.000000e+00;
+set: real blade_body1_I22 = 1.941440e+04;
+set: real blade_body1_I23 = 0.000000e+00;
+set: real blade_body1_I33 = 3.576342e+04;
+
+
+#============================================================
+# Body: 2
+#============================================================
+
+set: integer blade_body2_label = 2;
+set: real blade_body2_xcm = 3.681685e-03;
+set: real blade_body2_ycm = 7.473035e-02;
+set: real blade_body2_zcm = 0.000000e+00;
+set: real blade_body2_mass = 9.379052e+03;
+set: real blade_body2_I11 = 4.062679e+04;
+set: real blade_body2_I12 = -1.179089e+02;
+set: real blade_body2_I13 = 0.000000e+00;
+set: real blade_body2_I22 = 3.883555e+04;
+set: real blade_body2_I23 = 0.000000e+00;
+set: real blade_body2_I33 = 5.856555e+04;
+
+
+#============================================================
+# Body: 3
+#============================================================
+
+set: integer blade_body3_label = 3;
+set: real blade_body3_xcm = 9.362026e-03;
+set: real blade_body3_ycm = 1.554045e-01;
+set: real blade_body3_zcm = 0.000000e+00;
+set: real blade_body3_mass = 7.179374e+03;
+set: real blade_body3_I11 = 3.038279e+04;
+set: real blade_body3_I12 = -3.039699e+02;
+set: real blade_body3_I13 = 0.000000e+00;
+set: real blade_body3_I22 = 2.544762e+04;
+set: real blade_body3_I23 = 0.000000e+00;
+set: real blade_body3_I33 = 3.983457e+04;
+
+
+#============================================================
+# Body: 4
+#============================================================
+
+set: integer blade_body4_label = 4;
+set: real blade_body4_xcm = 1.845086e-02;
+set: real blade_body4_ycm = 2.789654e-01;
+set: real blade_body4_zcm = 0.000000e+00;
+set: real blade_body4_mass = 6.298354e+03;
+set: real blade_body4_I11 = 2.495056e+04;
+set: real blade_body4_I12 = -5.229124e+02;
+set: real blade_body4_I13 = 0.000000e+00;
+set: real blade_body4_I22 = 1.812809e+04;
+set: real blade_body4_I23 = 0.000000e+00;
+set: real blade_body4_I33 = 2.904575e+04;
+
+
+#============================================================
+# Body: 5
+#============================================================
+
+set: integer blade_body5_label = 5;
+set: real blade_body5_xcm = 2.176577e-02;
+set: real blade_body5_ycm = 4.478991e-01;
+set: real blade_body5_zcm = 0.000000e+00;
+set: real blade_body5_mass = 5.106482e+03;
+set: real blade_body5_I11 = 1.963060e+04;
+set: real blade_body5_I12 = -4.663314e+02;
+set: real blade_body5_I13 = 0.000000e+00;
+set: real blade_body5_I22 = 1.194060e+04;
+set: real blade_body5_I23 = 0.000000e+00;
+set: real blade_body5_I33 = 2.019382e+04;
+
+
+#============================================================
+# Body: 6
+#============================================================
+
+set: integer blade_body6_label = 6;
+set: real blade_body6_xcm = 2.398229e-02;
+set: real blade_body6_ycm = 6.090880e-01;
+set: real blade_body6_zcm = 0.000000e+00;
+set: real blade_body6_mass = 3.623357e+03;
+set: real blade_body6_I11 = 1.426023e+04;
+set: real blade_body6_I12 = -3.284508e+02;
+set: real blade_body6_I13 = 0.000000e+00;
+set: real blade_body6_I22 = 7.203879e+03;
+set: real blade_body6_I23 = 0.000000e+00;
+set: real blade_body6_I33 = 1.339118e+04;
+
+
+#============================================================
+# Body: 7
+#============================================================
+
+set: integer blade_body7_label = 7;
+set: real blade_body7_xcm = 2.868273e-02;
+set: real blade_body7_ycm = 7.370804e-01;
+set: real blade_body7_zcm = 0.000000e+00;
+set: real blade_body7_mass = 2.685441e+03;
+set: real blade_body7_I11 = 1.047248e+04;
+set: real blade_body7_I12 = -2.422504e+02;
+set: real blade_body7_I13 = 0.000000e+00;
+set: real blade_body7_I22 = 5.024092e+03;
+set: real blade_body7_I23 = 0.000000e+00;
+set: real blade_body7_I33 = 9.513338e+03;
+
+
+#============================================================
+# Body: 8
+#============================================================
+
+set: integer blade_body8_label = 8;
+set: real blade_body8_xcm = 3.247495e-02;
+set: real blade_body8_ycm = 8.299073e-01;
+set: real blade_body8_zcm = 0.000000e+00;
+set: real blade_body8_mass = 2.200166e+03;
+set: real blade_body8_I11 = 8.510457e+03;
+set: real blade_body8_I12 = -1.766992e+02;
+set: real blade_body8_I13 = 0.000000e+00;
+set: real blade_body8_I22 = 3.826266e+03;
+set: real blade_body8_I23 = 0.000000e+00;
+set: real blade_body8_I33 = 7.434693e+03;
+
+
+#============================================================
+# Body: 9
+#============================================================
+
+set: integer blade_body9_label = 9;
+set: real blade_body9_xcm = 3.466053e-02;
+set: real blade_body9_ycm = 8.834900e-01;
+set: real blade_body9_zcm = 0.000000e+00;
+set: real blade_body9_mass = 1.941693e+03;
+set: real blade_body9_I11 = 7.406340e+03;
+set: real blade_body9_I12 = -1.270115e+02;
+set: real blade_body9_I13 = 0.000000e+00;
+set: real blade_body9_I22 = 3.142660e+03;
+set: real blade_body9_I23 = 0.000000e+00;
+set: real blade_body9_I33 = 6.222856e+03;
+
+
+#============================================================
+# Body: 10
+#============================================================
+
+set: integer blade_body10_label = 10;
+set: real blade_body10_xcm = 3.302922e-02;
+set: real blade_body10_ycm = 8.869291e-01;
+set: real blade_body10_zcm = 0.000000e+00;
+set: real blade_body10_mass = 1.819378e+03;
+set: real blade_body10_I11 = 6.670432e+03;
+set: real blade_body10_I12 = -9.118321e+01;
+set: real blade_body10_I13 = 0.000000e+00;
+set: real blade_body10_I22 = 2.843887e+03;
+set: real blade_body10_I23 = 0.000000e+00;
+set: real blade_body10_I33 = 5.460696e+03;
+
+
+#============================================================
+# Body: 11
+#============================================================
+
+set: integer blade_body11_label = 11;
+set: real blade_body11_xcm = 3.058515e-02;
+set: real blade_body11_ycm = 8.832848e-01;
+set: real blade_body11_zcm = 0.000000e+00;
+set: real blade_body11_mass = 1.741882e+03;
+set: real blade_body11_I11 = 6.048665e+03;
+set: real blade_body11_I12 = -6.591049e+01;
+set: real blade_body11_I13 = 0.000000e+00;
+set: real blade_body11_I22 = 2.635028e+03;
+set: real blade_body11_I23 = 0.000000e+00;
+set: real blade_body11_I33 = 4.802733e+03;
+
+
+#============================================================
+# Body: 12
+#============================================================
+
+set: integer blade_body12_label = 12;
+set: real blade_body12_xcm = 2.796677e-02;
+set: real blade_body12_ycm = 8.530187e-01;
+set: real blade_body12_zcm = 0.000000e+00;
+set: real blade_body12_mass = 1.686026e+03;
+set: real blade_body12_I11 = 5.469729e+03;
+set: real blade_body12_I12 = -4.826333e+01;
+set: real blade_body12_I13 = 0.000000e+00;
+set: real blade_body12_I22 = 2.461912e+03;
+set: real blade_body12_I23 = 0.000000e+00;
+set: real blade_body12_I33 = 4.175129e+03;
+
+
+#============================================================
+# Body: 13
+#============================================================
+
+set: integer blade_body13_label = 13;
+set: real blade_body13_xcm = 2.441453e-02;
+set: real blade_body13_ycm = 8.211035e-01;
+set: real blade_body13_zcm = 0.000000e+00;
+set: real blade_body13_mass = 1.631220e+03;
+set: real blade_body13_I11 = 5.015812e+03;
+set: real blade_body13_I12 = -4.345318e+01;
+set: real blade_body13_I13 = 0.000000e+00;
+set: real blade_body13_I22 = 2.314805e+03;
+set: real blade_body13_I23 = 0.000000e+00;
+set: real blade_body13_I33 = 3.696214e+03;
+
+
+#============================================================
+# Body: 14
+#============================================================
+
+set: integer blade_body14_label = 14;
+set: real blade_body14_xcm = 2.110395e-02;
+set: real blade_body14_ycm = 7.929499e-01;
+set: real blade_body14_zcm = 0.000000e+00;
+set: real blade_body14_mass = 1.573968e+03;
+set: real blade_body14_I11 = 4.611192e+03;
+set: real blade_body14_I12 = -4.055569e+01;
+set: real blade_body14_I13 = 0.000000e+00;
+set: real blade_body14_I22 = 2.177564e+03;
+set: real blade_body14_I23 = 0.000000e+00;
+set: real blade_body14_I33 = 3.281912e+03;
+
+
+#============================================================
+# Body: 15
+#============================================================
+
+set: integer blade_body15_label = 15;
+set: real blade_body15_xcm = 1.876604e-02;
+set: real blade_body15_ycm = 7.760417e-01;
+set: real blade_body15_zcm = 0.000000e+00;
+set: real blade_body15_mass = 1.506920e+03;
+set: real blade_body15_I11 = 4.203103e+03;
+set: real blade_body15_I12 = -3.743359e+01;
+set: real blade_body15_I13 = 0.000000e+00;
+set: real blade_body15_I22 = 2.034227e+03;
+set: real blade_body15_I23 = 0.000000e+00;
+set: real blade_body15_I33 = 2.879870e+03;
+
+
+#============================================================
+# Body: 16
+#============================================================
+
+set: integer blade_body16_label = 16;
+set: real blade_body16_xcm = 1.895446e-02;
+set: real blade_body16_ycm = 7.524269e-01;
+set: real blade_body16_zcm = 0.000000e+00;
+set: real blade_body16_mass = 1.442757e+03;
+set: real blade_body16_I11 = 3.838107e+03;
+set: real blade_body16_I12 = -3.364269e+01;
+set: real blade_body16_I13 = 0.000000e+00;
+set: real blade_body16_I22 = 1.902330e+03;
+set: real blade_body16_I23 = 0.000000e+00;
+set: real blade_body16_I33 = 2.525935e+03;
+
+
+#============================================================
+# Body: 17
+#============================================================
+
+set: integer blade_body17_label = 17;
+set: real blade_body17_xcm = 2.069080e-02;
+set: real blade_body17_ycm = 7.223392e-01;
+set: real blade_body17_zcm = 0.000000e+00;
+set: real blade_body17_mass = 1.381080e+03;
+set: real blade_body17_I11 = 3.506766e+03;
+set: real blade_body17_I12 = -2.924535e+01;
+set: real blade_body17_I13 = 0.000000e+00;
+set: real blade_body17_I22 = 1.781149e+03;
+set: real blade_body17_I23 = 0.000000e+00;
+set: real blade_body17_I33 = 2.210831e+03;
+
+
+#============================================================
+# Body: 18
+#============================================================
+
+set: integer blade_body18_label = 18;
+set: real blade_body18_xcm = 2.234079e-02;
+set: real blade_body18_ycm = 6.985400e-01;
+set: real blade_body18_zcm = 0.000000e+00;
+set: real blade_body18_mass = 1.322121e+03;
+set: real blade_body18_I11 = 3.201013e+03;
+set: real blade_body18_I12 = -2.507142e+01;
+set: real blade_body18_I13 = 0.000000e+00;
+set: real blade_body18_I22 = 1.671621e+03;
+set: real blade_body18_I23 = 0.000000e+00;
+set: real blade_body18_I33 = 1.926913e+03;
+
+
+#============================================================
+# Body: 19
+#============================================================
+
+set: integer blade_body19_label = 19;
+set: real blade_body19_xcm = 2.399731e-02;
+set: real blade_body19_ycm = 6.547144e-01;
+set: real blade_body19_zcm = 0.000000e+00;
+set: real blade_body19_mass = 1.247359e+03;
+set: real blade_body19_I11 = 2.853554e+03;
+set: real blade_body19_I12 = -2.015036e+01;
+set: real blade_body19_I13 = 0.000000e+00;
+set: real blade_body19_I22 = 1.552362e+03;
+set: real blade_body19_I23 = 0.000000e+00;
+set: real blade_body19_I33 = 1.626765e+03;
+
+
+#============================================================
+# Body: 20
+#============================================================
+
+set: integer blade_body20_label = 20;
+set: real blade_body20_xcm = 2.557674e-02;
+set: real blade_body20_ycm = 5.563468e-01;
+set: real blade_body20_zcm = 0.000000e+00;
+set: real blade_body20_mass = 1.144602e+03;
+set: real blade_body20_I11 = 2.433203e+03;
+set: real blade_body20_I12 = -1.414635e+01;
+set: real blade_body20_I13 = 0.000000e+00;
+set: real blade_body20_I22 = 1.408419e+03;
+set: real blade_body20_I23 = 0.000000e+00;
+set: real blade_body20_I33 = 1.291417e+03;
+
+
+#============================================================
+# Body: 21
+#============================================================
+
+set: integer blade_body21_label = 21;
+set: real blade_body21_xcm = 2.687989e-02;
+set: real blade_body21_ycm = 4.437123e-01;
+set: real blade_body21_zcm = 0.000000e+00;
+set: real blade_body21_mass = 1.035833e+03;
+set: real blade_body21_I11 = 2.018057e+03;
+set: real blade_body21_I12 = -8.874439e+00;
+set: real blade_body21_I13 = 0.000000e+00;
+set: real blade_body21_I22 = 1.262389e+03;
+set: real blade_body21_I23 = 0.000000e+00;
+set: real blade_body21_I33 = 9.725819e+02;
+
+
+#============================================================
+# Body: 22
+#============================================================
+
+set: integer blade_body22_label = 22;
+set: real blade_body22_xcm = 2.841617e-02;
+set: real blade_body22_ycm = 3.433082e-01;
+set: real blade_body22_zcm = 0.000000e+00;
+set: real blade_body22_mass = 9.335357e+02;
+set: real blade_body22_I11 = 1.667884e+03;
+set: real blade_body22_I12 = -5.203133e+00;
+set: real blade_body22_I13 = 0.000000e+00;
+set: real blade_body22_I22 = 1.127589e+03;
+set: real blade_body22_I23 = 0.000000e+00;
+set: real blade_body22_I33 = 7.155296e+02;
+
+
+#============================================================
+# Body: 23
+#============================================================
+
+set: integer blade_body23_label = 23;
+set: real blade_body23_xcm = 3.112302e-02;
+set: real blade_body23_ycm = 2.773507e-01;
+set: real blade_body23_zcm = 0.000000e+00;
+set: real blade_body23_mass = 8.530483e+02;
+set: real blade_body23_I11 = 1.425243e+03;
+set: real blade_body23_I12 = -3.339489e+00;
+set: real blade_body23_I13 = 0.000000e+00;
+set: real blade_body23_I22 = 1.020727e+03;
+set: real blade_body23_I23 = 0.000000e+00;
+set: real blade_body23_I33 = 5.453548e+02;
+
+
+#============================================================
+# Body: 24
+#============================================================
+
+set: integer blade_body24_label = 24;
+set: real blade_body24_xcm = 3.425648e-02;
+set: real blade_body24_ycm = 2.379007e-01;
+set: real blade_body24_zcm = 0.000000e+00;
+set: real blade_body24_mass = 7.612279e+02;
+set: real blade_body24_I11 = 1.212495e+03;
+set: real blade_body24_I12 = -2.223298e+00;
+set: real blade_body24_I13 = 0.000000e+00;
+set: real blade_body24_I22 = 9.025365e+02;
+set: real blade_body24_I23 = 0.000000e+00;
+set: real blade_body24_I33 = 4.189951e+02;
+
+
+#============================================================
+# Body: 25
+#============================================================
+
+set: integer blade_body25_label = 25;
+set: real blade_body25_xcm = 3.659767e-02;
+set: real blade_body25_ycm = 2.118918e-01;
+set: real blade_body25_zcm = 0.000000e+00;
+set: real blade_body25_mass = 6.566043e+02;
+set: real blade_body25_I11 = 1.011486e+03;
+set: real blade_body25_I12 = -1.488031e+00;
+set: real blade_body25_I13 = 0.000000e+00;
+set: real blade_body25_I22 = 7.717970e+02;
+set: real blade_body25_I23 = 0.000000e+00;
+set: real blade_body25_I33 = 3.203507e+02;
+
+
+#============================================================
+# Body: 26
+#============================================================
+
+set: integer blade_body26_label = 26;
+set: real blade_body26_xcm = 3.655681e-02;
+set: real blade_body26_ycm = 1.864715e-01;
+set: real blade_body26_zcm = 0.000000e+00;
+set: real blade_body26_mass = 5.411906e+02;
+set: real blade_body26_I11 = 8.111234e+02;
+set: real blade_body26_I12 = -9.472376e-01;
+set: real blade_body26_I13 = 0.000000e+00;
+set: real blade_body26_I22 = 6.321479e+02;
+set: real blade_body26_I23 = 0.000000e+00;
+set: real blade_body26_I33 = 2.374839e+02;
+
+
+#============================================================
+# Body: 27
+#============================================================
+
+set: integer blade_body27_label = 27;
+set: real blade_body27_xcm = 3.613609e-02;
+set: real blade_body27_ycm = 1.814197e-01;
+set: real blade_body27_zcm = 0.000000e+00;
+set: real blade_body27_mass = 4.289137e+02;
+set: real blade_body27_I11 = 6.304439e+02;
+set: real blade_body27_I12 = -5.701344e-01;
+set: real blade_body27_I13 = 0.000000e+00;
+set: real blade_body27_I22 = 4.984515e+02;
+set: real blade_body27_I23 = 0.000000e+00;
+set: real blade_body27_I33 = 1.732638e+02;
+
+
+#============================================================
+# Body: 28
+#============================================================
+
+set: integer blade_body28_label = 28;
+set: real blade_body28_xcm = 3.384255e-02;
+set: real blade_body28_ycm = 1.925562e-01;
+set: real blade_body28_zcm = 0.000000e+00;
+set: real blade_body28_mass = 3.259855e+02;
+set: real blade_body28_I11 = 4.734775e+02;
+set: real blade_body28_I12 = -3.072653e-01;
+set: real blade_body28_I13 = 0.000000e+00;
+set: real blade_body28_I22 = 3.771029e+02;
+set: real blade_body28_I23 = 0.000000e+00;
+set: real blade_body28_I33 = 1.242759e+02;
+
+
+#============================================================
+# Body: 29
+#============================================================
+
+set: integer blade_body29_label = 29;
+set: real blade_body29_xcm = 3.172823e-02;
+set: real blade_body29_ycm = 1.976052e-01;
+set: real blade_body29_zcm = 0.000000e+00;
+set: real blade_body29_mass = 2.490683e+02;
+set: real blade_body29_I11 = 3.579032e+02;
+set: real blade_body29_I12 = -1.832303e-01;
+set: real blade_body29_I13 = 0.000000e+00;
+set: real blade_body29_I22 = 2.866382e+02;
+set: real blade_body29_I23 = 0.000000e+00;
+set: real blade_body29_I33 = 8.961050e+01;
+
+
+#============================================================
+# Body: 30
+#============================================================
+
+set: integer blade_body30_label = 30;
+set: real blade_body30_xcm = 2.962019e-02;
+set: real blade_body30_ycm = 2.043304e-01;
+set: real blade_body30_zcm = 0.000000e+00;
+set: real blade_body30_mass = 1.895919e+02;
+set: real blade_body30_I11 = 2.701081e+02;
+set: real blade_body30_I12 = -1.338982e-01;
+set: real blade_body30_I13 = 0.000000e+00;
+set: real blade_body30_I22 = 2.169838e+02;
+set: real blade_body30_I23 = 0.000000e+00;
+set: real blade_body30_I33 = 6.467596e+01;
+
+
+#============================================================
+# Body: 31
+#============================================================
+
+set: integer blade_body31_label = 31;
+set: real blade_body31_xcm = 2.779478e-02;
+set: real blade_body31_ycm = 2.309562e-01;
+set: real blade_body31_zcm = 0.000000e+00;
+set: real blade_body31_mass = 1.456711e+02;
+set: real blade_body31_I11 = 2.067128e+02;
+set: real blade_body31_I12 = -1.271572e-01;
+set: real blade_body31_I13 = 0.000000e+00;
+set: real blade_body31_I22 = 1.657443e+02;
+set: real blade_body31_I23 = 0.000000e+00;
+set: real blade_body31_I33 = 4.789792e+01;
+
+
+#============================================================
+# Body: 32
+#============================================================
+
+set: integer blade_body32_label = 32;
+set: real blade_body32_xcm = 2.195674e-02;
+set: real blade_body32_ycm = 1.991184e-01;
+set: real blade_body32_zcm = 0.000000e+00;
+set: real blade_body32_mass = 9.031163e+01;
+set: real blade_body32_I11 = 1.260803e+02;
+set: real blade_body32_I12 = -9.657442e-02;
+set: real blade_body32_I13 = 0.000000e+00;
+set: real blade_body32_I22 = 1.021868e+02;
+set: real blade_body32_I23 = 0.000000e+00;
+set: real blade_body32_I33 = 2.705034e+01;
+
+
+#============================================================
+# Body: 33
+#============================================================
+
+set: integer blade_body33_label = 33;
+set: real blade_body33_xcm = 1.113361e-02;
+set: real blade_body33_ycm = 7.928585e-02;
+set: real blade_body33_zcm = -9.140625e-01;
+set: real blade_body33_mass = 1.925212e+01;
+set: real blade_body33_I11 = 8.892531e+00;
+set: real blade_body33_I12 = -1.528278e-02;
+set: real blade_body33_I13 = 0.000000e+00;
+set: real blade_body33_I22 = 5.549530e+00;
+set: real blade_body33_I23 = 0.000000e+00;
+set: real blade_body33_I33 = 3.718501e+00;

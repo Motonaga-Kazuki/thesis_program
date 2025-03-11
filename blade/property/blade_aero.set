@@ -1,0 +1,576 @@
+
+
+#============================================================
+# Aerodynamic beam: 1
+#============================================================
+
+set: integer blade_aero1_label = 1;
+
+set: real blade_aero1_node1_xac = -6.354122e-03;
+set: real blade_aero1_node1_yac = -2.276626e-02;
+set: real blade_aero1_node1_twist = 2.721763e-01;
+
+set: real blade_aero1_node2_xac = 2.147994e-02;
+set: real blade_aero1_node2_yac = 7.594363e-02;
+set: real blade_aero1_node2_twist = 2.709331e-01;
+
+set: real blade_aero1_node3_xac = 1.313172e-02;
+set: real blade_aero1_node3_yac = 4.986819e-02;
+set: real blade_aero1_node3_twist = 2.602844e-01;
+
+set: real blade_aero1_point1_xlocal = -1.000000e+00;
+set: real blade_aero1_point1_chord = 5.200000e+00;
+set: integer blade_aero1_point1_AF = labelAirfoil + 1;
+
+set: real blade_aero1_point2_xlocal = -3.333333e-01;
+set: real blade_aero1_point2_chord = 5.209132e+00;
+set: integer blade_aero1_point2_AF = labelAirfoil + 2;
+
+set: real blade_aero1_point3_xlocal = 3.333333e-01;
+set: real blade_aero1_point3_chord = 5.239521e+00;
+set: integer blade_aero1_point3_AF = labelAirfoil + 3;
+
+set: real blade_aero1_point4_xlocal = 1.000000e+00;
+set: real blade_aero1_point4_chord = 5.297349e+00;
+set: integer blade_aero1_point4_AF = labelAirfoil + 4;
+
+
+
+#============================================================
+# Aerodynamic beam: 2
+#============================================================
+
+set: integer blade_aero2_label = 2;
+
+set: real blade_aero2_node1_xac = 1.313172e-02;
+set: real blade_aero2_node1_yac = 4.986819e-02;
+set: real blade_aero2_node1_twist = 2.602844e-01;
+
+set: real blade_aero2_node2_xac = -2.216242e-02;
+set: real blade_aero2_node2_yac = -9.032727e-02;
+set: real blade_aero2_node2_twist = 2.402273e-01;
+
+set: real blade_aero2_node3_xac = -5.579858e-02;
+set: real blade_aero2_node3_yac = -2.546295e-01;
+set: real blade_aero2_node3_twist = 2.146080e-01;
+
+set: real blade_aero2_point1_xlocal = -1.000000e+00;
+set: real blade_aero2_point1_chord = 5.297349e+00;
+set: integer blade_aero2_point1_AF = labelAirfoil + 4;
+
+set: real blade_aero2_point2_xlocal = -3.333333e-01;
+set: real blade_aero2_point2_chord = 5.373991e+00;
+set: integer blade_aero2_point2_AF = labelAirfoil + 5;
+
+set: real blade_aero2_point3_xlocal = 3.333333e-01;
+set: real blade_aero2_point3_chord = 5.461148e+00;
+set: integer blade_aero2_point3_AF = labelAirfoil + 6;
+
+set: real blade_aero2_point4_xlocal = 1.000000e+00;
+set: real blade_aero2_point4_chord = 5.550621e+00;
+set: integer blade_aero2_point4_AF = labelAirfoil + 7;
+
+
+
+#============================================================
+# Aerodynamic beam: 3
+#============================================================
+
+set: integer blade_aero3_label = 3;
+
+set: real blade_aero3_node1_xac = -5.579858e-02;
+set: real blade_aero3_node1_yac = -2.546295e-01;
+set: real blade_aero3_node1_twist = 2.146080e-01;
+
+set: real blade_aero3_node2_xac = -6.469047e-02;
+set: real blade_aero3_node2_yac = -3.378727e-01;
+set: real blade_aero3_node2_twist = 1.870710e-01;
+
+set: real blade_aero3_node3_xac = -6.372108e-02;
+set: real blade_aero3_node3_yac = -3.886731e-01;
+set: real blade_aero3_node3_twist = 1.611889e-01;
+
+set: real blade_aero3_point1_xlocal = -1.000000e+00;
+set: real blade_aero3_point1_chord = 5.550621e+00;
+set: integer blade_aero3_point1_AF = labelAirfoil + 7;
+
+set: real blade_aero3_point2_xlocal = -3.333333e-01;
+set: real blade_aero3_point2_chord = 5.632902e+00;
+set: integer blade_aero3_point2_AF = labelAirfoil + 8;
+
+set: real blade_aero3_point3_xlocal = 3.333333e-01;
+set: real blade_aero3_point3_chord = 5.702314e+00;
+set: integer blade_aero3_point3_AF = labelAirfoil + 9;
+
+set: real blade_aero3_point4_xlocal = 1.000000e+00;
+set: real blade_aero3_point4_chord = 5.748473e+00;
+set: integer blade_aero3_point4_AF = labelAirfoil + 10;
+
+
+
+#============================================================
+# Aerodynamic beam: 4
+#============================================================
+
+set: integer blade_aero4_label = 4;
+
+set: real blade_aero4_node1_xac = -6.372108e-02;
+set: real blade_aero4_node1_yac = -3.886731e-01;
+set: real blade_aero4_node1_twist = 1.611889e-01;
+
+set: real blade_aero4_node2_xac = -6.100207e-02;
+set: real blade_aero4_node2_yac = -4.327975e-01;
+set: real blade_aero4_node2_twist = 1.400772e-01;
+
+set: real blade_aero4_node3_xac = -5.079624e-02;
+set: real blade_aero4_node3_yac = -4.121608e-01;
+set: real blade_aero4_node3_twist = 1.227098e-01;
+
+set: real blade_aero4_point1_xlocal = -1.000000e+00;
+set: real blade_aero4_point1_chord = 5.748473e+00;
+set: integer blade_aero4_point1_AF = labelAirfoil + 10;
+
+set: real blade_aero4_point2_xlocal = -3.333333e-01;
+set: real blade_aero4_point2_chord = 5.764374e+00;
+set: integer blade_aero4_point2_AF = labelAirfoil + 11;
+
+set: real blade_aero4_point3_xlocal = 3.333333e-01;
+set: real blade_aero4_point3_chord = 5.749793e+00;
+set: integer blade_aero4_point3_AF = labelAirfoil + 12;
+
+set: real blade_aero4_point4_xlocal = 1.000000e+00;
+set: real blade_aero4_point4_chord = 5.683334e+00;
+set: integer blade_aero4_point4_AF = labelAirfoil + 13;
+
+
+
+#============================================================
+# Aerodynamic beam: 5
+#============================================================
+
+set: integer blade_aero5_label = 5;
+
+set: real blade_aero5_node1_xac = -5.079624e-02;
+set: real blade_aero5_node1_yac = -4.121608e-01;
+set: real blade_aero5_node1_twist = 1.227098e-01;
+
+set: real blade_aero5_node2_xac = -3.806789e-02;
+set: real blade_aero5_node2_yac = -3.584493e-01;
+set: real blade_aero5_node2_twist = 1.058833e-01;
+
+set: real blade_aero5_node3_xac = -2.889047e-02;
+set: real blade_aero5_node3_yac = -3.183603e-01;
+set: real blade_aero5_node3_twist = 9.023019e-02;
+
+set: real blade_aero5_point1_xlocal = -1.000000e+00;
+set: real blade_aero5_point1_chord = 5.683334e+00;
+set: integer blade_aero5_point1_AF = labelAirfoil + 13;
+
+set: real blade_aero5_point2_xlocal = -3.333333e-01;
+set: real blade_aero5_point2_chord = 5.571891e+00;
+set: integer blade_aero5_point2_AF = labelAirfoil + 14;
+
+set: real blade_aero5_point3_xlocal = 3.333333e-01;
+set: real blade_aero5_point3_chord = 5.429595e+00;
+set: integer blade_aero5_point3_AF = labelAirfoil + 15;
+
+set: real blade_aero5_point4_xlocal = 1.000000e+00;
+set: real blade_aero5_point4_chord = 5.274185e+00;
+set: integer blade_aero5_point4_AF = labelAirfoil + 16;
+
+
+
+#============================================================
+# Aerodynamic beam: 6
+#============================================================
+
+set: integer blade_aero6_label = 6;
+
+set: real blade_aero6_node1_xac = -2.889047e-02;
+set: real blade_aero6_node1_yac = -3.183603e-01;
+set: real blade_aero6_node1_twist = 9.023019e-02;
+
+set: real blade_aero6_node2_xac = -2.201924e-02;
+set: real blade_aero6_node2_yac = -2.862876e-01;
+set: real blade_aero6_node2_twist = 7.629277e-02;
+
+set: real blade_aero6_node3_xac = -1.655482e-02;
+set: real blade_aero6_node3_yac = -2.581991e-01;
+set: real blade_aero6_node3_twist = 6.442901e-02;
+
+set: real blade_aero6_point1_xlocal = -1.000000e+00;
+set: real blade_aero6_point1_chord = 5.274185e+00;
+set: integer blade_aero6_point1_AF = labelAirfoil + 16;
+
+set: real blade_aero6_point2_xlocal = -3.333333e-01;
+set: real blade_aero6_point2_chord = 5.116277e+00;
+set: integer blade_aero6_point2_AF = labelAirfoil + 17;
+
+set: real blade_aero6_point3_xlocal = 3.333333e-01;
+set: real blade_aero6_point3_chord = 4.970476e+00;
+set: integer blade_aero6_point3_AF = labelAirfoil + 18;
+
+set: real blade_aero6_point4_xlocal = 1.000000e+00;
+set: real blade_aero6_point4_chord = 4.840333e+00;
+set: integer blade_aero6_point4_AF = labelAirfoil + 19;
+
+
+
+#============================================================
+# Aerodynamic beam: 7
+#============================================================
+
+set: integer blade_aero7_label = 7;
+
+set: real blade_aero7_node1_xac = -1.655482e-02;
+set: real blade_aero7_node1_yac = -2.581991e-01;
+set: real blade_aero7_node1_twist = 6.442901e-02;
+
+set: real blade_aero7_node2_xac = -1.321275e-02;
+set: real blade_aero7_node2_yac = -2.303756e-01;
+set: real blade_aero7_node2_twist = 5.428547e-02;
+
+set: real blade_aero7_node3_xac = -9.446301e-03;
+set: real blade_aero7_node3_yac = -2.034797e-01;
+set: real blade_aero7_node3_twist = 4.521016e-02;
+
+set: real blade_aero7_point1_xlocal = -1.000000e+00;
+set: real blade_aero7_point1_chord = 4.840333e+00;
+set: integer blade_aero7_point1_AF = labelAirfoil + 19;
+
+set: real blade_aero7_point2_xlocal = -3.333333e-01;
+set: real blade_aero7_point2_chord = 4.722766e+00;
+set: integer blade_aero7_point2_AF = labelAirfoil + 20;
+
+set: real blade_aero7_point3_xlocal = 3.333333e-01;
+set: real blade_aero7_point3_chord = 4.607235e+00;
+set: integer blade_aero7_point3_AF = labelAirfoil + 21;
+
+set: real blade_aero7_point4_xlocal = 1.000000e+00;
+set: real blade_aero7_point4_chord = 4.491521e+00;
+set: integer blade_aero7_point4_AF = labelAirfoil + 22;
+
+
+
+#============================================================
+# Aerodynamic beam: 8
+#============================================================
+
+set: integer blade_aero8_label = 8;
+
+set: real blade_aero8_node1_xac = -9.446301e-03;
+set: real blade_aero8_node1_yac = -2.034797e-01;
+set: real blade_aero8_node1_twist = 4.521016e-02;
+
+set: real blade_aero8_node2_xac = -6.716964e-03;
+set: real blade_aero8_node2_yac = -1.809754e-01;
+set: real blade_aero8_node2_twist = 3.701517e-02;
+
+set: real blade_aero8_node3_xac = -4.840219e-03;
+set: real blade_aero8_node3_yac = -1.635950e-01;
+set: real blade_aero8_node3_twist = 2.952933e-02;
+
+set: real blade_aero8_point1_xlocal = -1.000000e+00;
+set: real blade_aero8_point1_chord = 4.491521e+00;
+set: integer blade_aero8_point1_AF = labelAirfoil + 22;
+
+set: real blade_aero8_point2_xlocal = -3.333333e-01;
+set: real blade_aero8_point2_chord = 4.376969e+00;
+set: integer blade_aero8_point2_AF = labelAirfoil + 23;
+
+set: real blade_aero8_point3_xlocal = 3.333333e-01;
+set: real blade_aero8_point3_chord = 4.264382e+00;
+set: integer blade_aero8_point3_AF = labelAirfoil + 24;
+
+set: real blade_aero8_point4_xlocal = 1.000000e+00;
+set: real blade_aero8_point4_chord = 4.154379e+00;
+set: integer blade_aero8_point4_AF = labelAirfoil + 25;
+
+
+
+#============================================================
+# Aerodynamic beam: 9
+#============================================================
+
+set: integer blade_aero9_label = 9;
+
+set: real blade_aero9_node1_xac = -4.840219e-03;
+set: real blade_aero9_node1_yac = -1.635950e-01;
+set: real blade_aero9_node1_twist = 2.952933e-02;
+
+set: real blade_aero9_node2_xac = -3.452465e-03;
+set: real blade_aero9_node2_yac = -1.518467e-01;
+set: real blade_aero9_node2_twist = 2.259733e-02;
+
+set: real blade_aero9_node3_xac = -3.135491e-03;
+set: real blade_aero9_node3_yac = -1.454726e-01;
+set: real blade_aero9_node3_twist = 1.637529e-02;
+
+set: real blade_aero9_point1_xlocal = -1.000000e+00;
+set: real blade_aero9_point1_chord = 4.154379e+00;
+set: integer blade_aero9_point1_AF = labelAirfoil + 25;
+
+set: real blade_aero9_point2_xlocal = -3.333333e-01;
+set: real blade_aero9_point2_chord = 4.047600e+00;
+set: integer blade_aero9_point2_AF = labelAirfoil + 27;
+
+set: real blade_aero9_point3_xlocal = 3.333333e-01;
+set: real blade_aero9_point3_chord = 3.944511e+00;
+set: integer blade_aero9_point3_AF = labelAirfoil + 28;
+
+set: real blade_aero9_point4_xlocal = 1.000000e+00;
+set: real blade_aero9_point4_chord = 3.844941e+00;
+set: integer blade_aero9_point4_AF = labelAirfoil + 29;
+
+
+
+#============================================================
+# Aerodynamic beam: 10
+#============================================================
+
+set: integer blade_aero10_label = 10;
+
+set: real blade_aero10_node1_xac = -3.135491e-03;
+set: real blade_aero10_node1_yac = -1.454726e-01;
+set: real blade_aero10_node1_twist = 1.637529e-02;
+
+set: real blade_aero10_node2_xac = -1.546310e-03;
+set: real blade_aero10_node2_yac = -1.428895e-01;
+set: real blade_aero10_node2_twist = 1.077865e-02;
+
+set: real blade_aero10_node3_xac = -8.192617e-04;
+set: real blade_aero10_node3_yac = -1.440954e-01;
+set: real blade_aero10_node3_twist = 5.476258e-03;
+
+set: real blade_aero10_point1_xlocal = -1.000000e+00;
+set: real blade_aero10_point1_chord = 3.844941e+00;
+set: integer blade_aero10_point1_AF = labelAirfoil + 29;
+
+set: real blade_aero10_point2_xlocal = -3.333333e-01;
+set: real blade_aero10_point2_chord = 3.748236e+00;
+set: integer blade_aero10_point2_AF = labelAirfoil + 30;
+
+set: real blade_aero10_point3_xlocal = 3.333333e-01;
+set: real blade_aero10_point3_chord = 3.653510e+00;
+set: integer blade_aero10_point3_AF = labelAirfoil + 31;
+
+set: real blade_aero10_point4_xlocal = 1.000000e+00;
+set: real blade_aero10_point4_chord = 3.559909e+00;
+set: integer blade_aero10_point4_AF = labelAirfoil + 32;
+
+
+
+#============================================================
+# Aerodynamic beam: 11
+#============================================================
+
+set: integer blade_aero11_label = 11;
+
+set: real blade_aero11_node1_xac = -8.192617e-04;
+set: real blade_aero11_node1_yac = -1.440954e-01;
+set: real blade_aero11_node1_twist = 5.476258e-03;
+
+set: real blade_aero11_node2_xac = -2.246748e-04;
+set: real blade_aero11_node2_yac = -1.482079e-01;
+set: real blade_aero11_node2_twist = 1.292353e-04;
+
+set: real blade_aero11_node3_xac = 8.933986e-04;
+set: real blade_aero11_node3_yac = -1.539271e-01;
+set: real blade_aero11_node3_twist = -5.767474e-03;
+
+set: real blade_aero11_point1_xlocal = -1.000000e+00;
+set: real blade_aero11_point1_chord = 3.559909e+00;
+set: integer blade_aero11_point1_AF = labelAirfoil + 32;
+
+set: real blade_aero11_point2_xlocal = -3.333333e-01;
+set: real blade_aero11_point2_chord = 3.466554e+00;
+set: integer blade_aero11_point2_AF = labelAirfoil + 33;
+
+set: real blade_aero11_point3_xlocal = 3.333333e-01;
+set: real blade_aero11_point3_chord = 3.372753e+00;
+set: integer blade_aero11_point3_AF = labelAirfoil + 34;
+
+set: real blade_aero11_point4_xlocal = 1.000000e+00;
+set: real blade_aero11_point4_chord = 3.277807e+00;
+set: integer blade_aero11_point4_AF = labelAirfoil + 35;
+
+
+
+#============================================================
+# Aerodynamic beam: 12
+#============================================================
+
+set: integer blade_aero12_label = 12;
+
+set: real blade_aero12_node1_xac = 8.933986e-04;
+set: real blade_aero12_node1_yac = -1.539271e-01;
+set: real blade_aero12_node1_twist = -5.767474e-03;
+
+set: real blade_aero12_node2_xac = 2.077819e-03;
+set: real blade_aero12_node2_yac = -1.605686e-01;
+set: real blade_aero12_node2_twist = -1.303442e-02;
+
+set: real blade_aero12_node3_xac = 3.625351e-03;
+set: real blade_aero12_node3_yac = -1.674835e-01;
+set: real blade_aero12_node3_twist = -2.166825e-02;
+
+set: real blade_aero12_point1_xlocal = -1.000000e+00;
+set: real blade_aero12_point1_chord = 3.277807e+00;
+set: integer blade_aero12_point1_AF = labelAirfoil + 35;
+
+set: real blade_aero12_point2_xlocal = -3.333333e-01;
+set: real blade_aero12_point2_chord = 3.183012e+00;
+set: integer blade_aero12_point2_AF = labelAirfoil + 36;
+
+set: real blade_aero12_point3_xlocal = 3.333333e-01;
+set: real blade_aero12_point3_chord = 3.089346e+00;
+set: integer blade_aero12_point3_AF = labelAirfoil + 37;
+
+set: real blade_aero12_point4_xlocal = 1.000000e+00;
+set: real blade_aero12_point4_chord = 2.995940e+00;
+set: integer blade_aero12_point4_AF = labelAirfoil + 38;
+
+
+
+#============================================================
+# Aerodynamic beam: 13
+#============================================================
+
+set: integer blade_aero13_label = 13;
+
+set: real blade_aero13_node1_xac = 3.625351e-03;
+set: real blade_aero13_node1_yac = -1.674835e-01;
+set: real blade_aero13_node1_twist = -2.166825e-02;
+
+set: real blade_aero13_node2_xac = 5.152008e-03;
+set: real blade_aero13_node2_yac = -1.733548e-01;
+set: real blade_aero13_node2_twist = -2.969553e-02;
+
+set: real blade_aero13_node3_xac = 6.391156e-03;
+set: real blade_aero13_node3_yac = -1.779566e-01;
+set: real blade_aero13_node3_twist = -3.595739e-02;
+
+set: real blade_aero13_point1_xlocal = -1.000000e+00;
+set: real blade_aero13_point1_chord = 2.995940e+00;
+set: integer blade_aero13_point1_AF = labelAirfoil + 38;
+
+set: real blade_aero13_point2_xlocal = -3.333333e-01;
+set: real blade_aero13_point2_chord = 2.901966e+00;
+set: integer blade_aero13_point2_AF = labelAirfoil + 39;
+
+set: real blade_aero13_point3_xlocal = 3.333333e-01;
+set: real blade_aero13_point3_chord = 2.806665e+00;
+set: integer blade_aero13_point3_AF = labelAirfoil + 40;
+
+set: real blade_aero13_point4_xlocal = 1.000000e+00;
+set: real blade_aero13_point4_chord = 2.709242e+00;
+set: integer blade_aero13_point4_AF = labelAirfoil + 41;
+
+
+
+#============================================================
+# Aerodynamic beam: 14
+#============================================================
+
+set: integer blade_aero14_label = 14;
+
+set: real blade_aero14_node1_xac = 6.391156e-03;
+set: real blade_aero14_node1_yac = -1.779566e-01;
+set: real blade_aero14_node1_twist = -3.595739e-02;
+
+set: real blade_aero14_node2_xac = 6.939253e-03;
+set: real blade_aero14_node2_yac = -1.831204e-01;
+set: real blade_aero14_node2_twist = -3.787849e-02;
+
+set: real blade_aero14_node3_xac = 7.180115e-03;
+set: real blade_aero14_node3_yac = -1.888451e-01;
+set: real blade_aero14_node3_twist = -3.768184e-02;
+
+set: real blade_aero14_point1_xlocal = -1.000000e+00;
+set: real blade_aero14_point1_chord = 2.709242e+00;
+set: integer blade_aero14_point1_AF = labelAirfoil + 41;
+
+set: real blade_aero14_point2_xlocal = -3.333333e-01;
+set: real blade_aero14_point2_chord = 2.608717e+00;
+set: integer blade_aero14_point2_AF = labelAirfoil + 42;
+
+set: real blade_aero14_point3_xlocal = 3.333333e-01;
+set: real blade_aero14_point3_chord = 2.504470e+00;
+set: integer blade_aero14_point3_AF = labelAirfoil + 43;
+
+set: real blade_aero14_point4_xlocal = 1.000000e+00;
+set: real blade_aero14_point4_chord = 2.397234e+00;
+set: integer blade_aero14_point4_AF = labelAirfoil + 44;
+
+
+
+#============================================================
+# Aerodynamic beam: 15
+#============================================================
+
+set: integer blade_aero15_label = 15;
+
+set: real blade_aero15_node1_xac = 7.180115e-03;
+set: real blade_aero15_node1_yac = -1.888451e-01;
+set: real blade_aero15_node1_twist = -3.768184e-02;
+
+set: real blade_aero15_node2_xac = 6.713708e-03;
+set: real blade_aero15_node2_yac = -1.935908e-01;
+set: real blade_aero15_node2_twist = -3.617911e-02;
+
+set: real blade_aero15_node3_xac = 6.529468e-03;
+set: real blade_aero15_node3_yac = -1.969358e-01;
+set: real blade_aero15_node3_twist = -3.325866e-02;
+
+set: real blade_aero15_point1_xlocal = -1.000000e+00;
+set: real blade_aero15_point1_chord = 2.397234e+00;
+set: integer blade_aero15_point1_AF = labelAirfoil + 44;
+
+set: real blade_aero15_point2_xlocal = -3.333333e-01;
+set: real blade_aero15_point2_chord = 2.287288e+00;
+set: integer blade_aero15_point2_AF = labelAirfoil + 45;
+
+set: real blade_aero15_point3_xlocal = 3.333333e-01;
+set: real blade_aero15_point3_chord = 2.174762e+00;
+set: integer blade_aero15_point3_AF = labelAirfoil + 46;
+
+set: real blade_aero15_point4_xlocal = 1.000000e+00;
+set: real blade_aero15_point4_chord = 2.059737e+00;
+set: integer blade_aero15_point4_AF = labelAirfoil + 47;
+
+
+
+#============================================================
+# Aerodynamic beam: 16
+#============================================================
+
+set: integer blade_aero16_label = 16;
+
+set: real blade_aero16_node1_xac = 6.529468e-03;
+set: real blade_aero16_node1_yac = -1.969358e-01;
+set: real blade_aero16_node1_twist = -3.325866e-02;
+
+set: real blade_aero16_node2_xac = 5.569010e-03;
+set: real blade_aero16_node2_yac = -1.997501e-01;
+set: real blade_aero16_node2_twist = -2.842789e-02;
+
+set: real blade_aero16_node3_xac = 1.283041e-03;
+set: real blade_aero16_node3_yac = -5.907706e-02;
+set: real blade_aero16_node3_twist = -2.168376e-02;
+
+set: real blade_aero16_point1_xlocal = -1.000000e+00;
+set: real blade_aero16_point1_chord = 2.059737e+00;
+set: integer blade_aero16_point1_AF = labelAirfoil + 47;
+
+set: real blade_aero16_point2_xlocal = -3.333333e-01;
+set: real blade_aero16_point2_chord = 1.942602e+00;
+set: integer blade_aero16_point2_AF = labelAirfoil + 48;
+
+set: real blade_aero16_point3_xlocal = 3.333333e-01;
+set: real blade_aero16_point3_chord = 1.824095e+00;
+set: integer blade_aero16_point3_AF = labelAirfoil + 49;
+
+set: real blade_aero16_point4_xlocal = 1.000000e+00;
+set: real blade_aero16_point4_chord = 5.000000e-01;
+set: integer blade_aero16_point4_AF = labelAirfoil + 50;
+

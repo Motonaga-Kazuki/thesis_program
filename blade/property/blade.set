@@ -1,0 +1,7 @@
+
+include: "airfoil/airfoil.set";
+
+include: "blade_node.set";
+include: "blade_body.set";
+include: "blade_beam.set";
+include: "blade_aero.set";

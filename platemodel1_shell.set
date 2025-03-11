@@ -1,0 +1,9 @@
+
+#============================================================
+# Shell Constitutive Law: 1
+#============================================================
+set: real E_pshell1  =      2.0500e+11 ;
+set: real nu_pshell1 =          0.3000 ;
+set: real as_pshell1 =          1.0000 ;
+set: real at_pshell1 =          0.0100 ;
+set: real t_pshell1  =          0.0830 ;
